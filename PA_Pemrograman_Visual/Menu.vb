@@ -6,9 +6,6 @@
     Sub DeactivePage(ByVal page)
         page.ForeColor = Color.White
     End Sub
-    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub btnHomePage_Click(sender As Object, e As EventArgs) Handles btnHomePage.Click
         DeactivePage(btnSearchPage)

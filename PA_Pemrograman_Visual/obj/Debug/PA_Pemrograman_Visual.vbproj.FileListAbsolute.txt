@@ -32,3 +32,5 @@ D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminUpdateArtist.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminUpdateSong.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\mysql.data.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CopyComplete
