@@ -21,17 +21,10 @@ Public Class Home
         koneksi()
         changePanel(New Menu)
         MediaPlayers.settings.autoStart = True
-        'MediaPlayers.URL = PATH_SONG & "Night Changes.mp3"
-        'MediaPlayers.Ctlcontrols.stop()
-        'MsgBox(MediaPlayer.URL)
-        'Dim i As Integer
-        'For i = 0 To 20
-        '    Dim cardSong = New SongCard
-        '    cardSong.textBox1.Text = i
-        '    songPanel(cardSong)
-        'Next
+        AudioPanel.Visible = False
 
-        DA = New MySqlDataAdapter("Select * From tbsong", CONN)
+        DA = New MySqlDataAdapter("SELECT * From tbsong S Join tbartist A ON S.id_artist = A.id_artist", CONN)
+        'SELECT * From tbsong S Join tbartist A ON S.id_artist = A.id_artist
         DS = New DataSet
         DS.Clear()
         DA.Fill(DS, "lagu")
@@ -51,9 +44,10 @@ Public Class Home
                 'Dim hrg As Integer = array(i, 3)
                 '.HargaProduk.Text = "Rp " & FormatNumber(hrg, 0, TriState.True)
                 '.pctProduk.ImageLocation = PATH_GAMBAR & array(i, 4)
-                .TextBox2.Text = array(i, 0)
+                .txtIdSong.Text = array(i, 0)
                 .lblTitle.Text = array(i, 2)
-                .textBox1.Text = array(i, 6)
+                .lblArtist.Text = array(i, 9)
+                .txtSourceSong.Text = array(i, 6)
             End With
             produk.TopLevel = False
             panelSong.Controls.Add(produk)
@@ -76,5 +70,12 @@ Public Class Home
         ElseIf b = "ps" Then
             MediaPlayers.Ctlcontrols.stop()
         End If
+    End Sub
+
+    Private Sub btnDown_Click(sender As Object, e As EventArgs) Handles btnDown.Click
+        MediaPlayers.Ctlcontrols.stop()
+        ID_PLAYING = 0
+        ID_PREVIOUS_PLAYING = 0
+        AudioPanel.Visible = False
     End Sub
 End Class

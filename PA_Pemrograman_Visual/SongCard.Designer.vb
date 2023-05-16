@@ -28,11 +28,11 @@ Partial Class SongCard
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.lblArtist = New System.Windows.Forms.Label()
         Me.lblDescription = New System.Windows.Forms.Label()
-        Me.textBox1 = New System.Windows.Forms.TextBox()
+        Me.txtSourceSong = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtIdSong = New System.Windows.Forms.TextBox()
+        Me.txtCurrentPosition = New System.Windows.Forms.TextBox()
         CType(Me.pctCover, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,11 +51,11 @@ Partial Class SongCard
         'lblTitle
         '
         Me.lblTitle.AutoSize = True
-        Me.lblTitle.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitle.Location = New System.Drawing.Point(8, 175)
+        Me.lblTitle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Location = New System.Drawing.Point(8, 177)
         Me.lblTitle.MaximumSize = New System.Drawing.Size(167, 23)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(119, 23)
+        Me.lblTitle.Size = New System.Drawing.Size(101, 18)
         Me.lblTitle.TabIndex = 1
         Me.lblTitle.Text = "Photograph"
         '
@@ -63,7 +63,7 @@ Partial Class SongCard
         '
         Me.lblArtist.AutoSize = True
         Me.lblArtist.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblArtist.Location = New System.Drawing.Point(9, 203)
+        Me.lblArtist.Location = New System.Drawing.Point(9, 201)
         Me.lblArtist.MaximumSize = New System.Drawing.Size(165, 18)
         Me.lblArtist.Name = "lblArtist"
         Me.lblArtist.Size = New System.Drawing.Size(100, 18)
@@ -81,13 +81,14 @@ Partial Class SongCard
         Me.lblDescription.TabIndex = 3
         Me.lblDescription.Text = "This is a simple descript"
         '
-        'textBox1
+        'txtSourceSong
         '
-        Me.textBox1.Location = New System.Drawing.Point(12, 12)
-        Me.textBox1.Name = "textBox1"
-        Me.textBox1.Size = New System.Drawing.Size(76, 20)
-        Me.textBox1.TabIndex = 5
-        Me.textBox1.Visible = False
+        Me.txtSourceSong.Location = New System.Drawing.Point(12, 64)
+        Me.txtSourceSong.Name = "txtSourceSong"
+        Me.txtSourceSong.Size = New System.Drawing.Size(76, 20)
+        Me.txtSourceSong.TabIndex = 5
+        Me.txtSourceSong.Text = "source"
+        Me.txtSourceSong.Visible = False
         '
         'Timer1
         '
@@ -103,22 +104,23 @@ Partial Class SongCard
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
-        'TextBox2
+        'txtIdSong
         '
-        Me.TextBox2.Location = New System.Drawing.Point(42, 79)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(76, 20)
-        Me.TextBox2.TabIndex = 7
-        Me.TextBox2.Visible = False
+        Me.txtIdSong.Location = New System.Drawing.Point(12, 38)
+        Me.txtIdSong.Name = "txtIdSong"
+        Me.txtIdSong.Size = New System.Drawing.Size(76, 20)
+        Me.txtIdSong.TabIndex = 7
+        Me.txtIdSong.Text = "id"
+        Me.txtIdSong.Visible = False
         '
-        'TextBox3
+        'txtCurrentPosition
         '
-        Me.TextBox3.Location = New System.Drawing.Point(54, 116)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(76, 20)
-        Me.TextBox3.TabIndex = 8
-        Me.TextBox3.Text = "currentposition"
-        Me.TextBox3.Visible = False
+        Me.txtCurrentPosition.Location = New System.Drawing.Point(12, 12)
+        Me.txtCurrentPosition.Name = "txtCurrentPosition"
+        Me.txtCurrentPosition.Size = New System.Drawing.Size(76, 20)
+        Me.txtCurrentPosition.TabIndex = 8
+        Me.txtCurrentPosition.Text = "currentposition"
+        Me.txtCurrentPosition.Visible = False
         '
         'SongCard
         '
@@ -126,10 +128,10 @@ Partial Class SongCard
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(184, 253)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtCurrentPosition)
+        Me.Controls.Add(Me.txtIdSong)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.textBox1)
+        Me.Controls.Add(Me.txtSourceSong)
         Me.Controls.Add(Me.lblDescription)
         Me.Controls.Add(Me.lblArtist)
         Me.Controls.Add(Me.lblTitle)
@@ -148,9 +150,9 @@ Partial Class SongCard
     Friend WithEvents lblTitle As Label
     Friend WithEvents lblArtist As Label
     Friend WithEvents lblDescription As Label
-    Friend WithEvents textBox1 As TextBox
+    Friend WithEvents txtSourceSong As TextBox
     Friend WithEvents Timer1 As Timer
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtIdSong As TextBox
+    Friend WithEvents txtCurrentPosition As TextBox
 End Class
