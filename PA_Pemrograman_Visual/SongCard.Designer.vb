@@ -27,19 +27,22 @@ Partial Class SongCard
         Me.pctCover = New System.Windows.Forms.PictureBox()
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.lblArtist = New System.Windows.Forms.Label()
-        Me.lblDescription = New System.Windows.Forms.Label()
         Me.txtSourceSong = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.pctIconPlayNPause = New System.Windows.Forms.PictureBox()
         Me.txtIdSong = New System.Windows.Forms.TextBox()
-        Me.txtCurrentPosition = New System.Windows.Forms.TextBox()
+        Me.bawah = New System.Windows.Forms.Panel()
+        Me.kanan = New System.Windows.Forms.Panel()
+        Me.kiri = New System.Windows.Forms.Panel()
+        Me.atas = New System.Windows.Forms.Panel()
         CType(Me.pctCover, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pctIconPlayNPause, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pctCover
         '
         Me.pctCover.BackColor = System.Drawing.Color.Transparent
+        Me.pctCover.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctCover.Image = CType(resources.GetObject("pctCover.Image"), System.Drawing.Image)
         Me.pctCover.Location = New System.Drawing.Point(12, 12)
         Me.pctCover.Name = "pctCover"
@@ -51,8 +54,10 @@ Partial Class SongCard
         'lblTitle
         '
         Me.lblTitle.AutoSize = True
+        Me.lblTitle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.lblTitle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitle.Location = New System.Drawing.Point(8, 177)
+        Me.lblTitle.ForeColor = System.Drawing.Color.Black
+        Me.lblTitle.Location = New System.Drawing.Point(7, 180)
         Me.lblTitle.MaximumSize = New System.Drawing.Size(167, 23)
         Me.lblTitle.Name = "lblTitle"
         Me.lblTitle.Size = New System.Drawing.Size(101, 18)
@@ -63,27 +68,16 @@ Partial Class SongCard
         '
         Me.lblArtist.AutoSize = True
         Me.lblArtist.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblArtist.Location = New System.Drawing.Point(9, 201)
+        Me.lblArtist.Location = New System.Drawing.Point(8, 206)
         Me.lblArtist.MaximumSize = New System.Drawing.Size(165, 18)
         Me.lblArtist.Name = "lblArtist"
         Me.lblArtist.Size = New System.Drawing.Size(100, 18)
         Me.lblArtist.TabIndex = 2
         Me.lblArtist.Text = "Ed Sheeran"
         '
-        'lblDescription
-        '
-        Me.lblDescription.AutoSize = True
-        Me.lblDescription.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDescription.Location = New System.Drawing.Point(9, 228)
-        Me.lblDescription.MaximumSize = New System.Drawing.Size(165, 16)
-        Me.lblDescription.Name = "lblDescription"
-        Me.lblDescription.Size = New System.Drawing.Size(165, 16)
-        Me.lblDescription.TabIndex = 3
-        Me.lblDescription.Text = "This is a simple descript"
-        '
         'txtSourceSong
         '
-        Me.txtSourceSong.Location = New System.Drawing.Point(12, 64)
+        Me.txtSourceSong.Location = New System.Drawing.Point(12, 38)
         Me.txtSourceSong.Name = "txtSourceSong"
         Me.txtSourceSong.Size = New System.Drawing.Size(76, 20)
         Me.txtSourceSong.TabIndex = 5
@@ -94,45 +88,74 @@ Partial Class SongCard
         '
         Me.Timer1.Enabled = True
         '
-        'PictureBox1
+        'pctIconPlayNPause
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(122, 122)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
+        Me.pctIconPlayNPause.Image = CType(resources.GetObject("pctIconPlayNPause.Image"), System.Drawing.Image)
+        Me.pctIconPlayNPause.Location = New System.Drawing.Point(122, 122)
+        Me.pctIconPlayNPause.Name = "pctIconPlayNPause"
+        Me.pctIconPlayNPause.Size = New System.Drawing.Size(50, 50)
+        Me.pctIconPlayNPause.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pctIconPlayNPause.TabIndex = 6
+        Me.pctIconPlayNPause.TabStop = False
         '
         'txtIdSong
         '
-        Me.txtIdSong.Location = New System.Drawing.Point(12, 38)
+        Me.txtIdSong.Location = New System.Drawing.Point(12, 12)
         Me.txtIdSong.Name = "txtIdSong"
         Me.txtIdSong.Size = New System.Drawing.Size(76, 20)
         Me.txtIdSong.TabIndex = 7
         Me.txtIdSong.Text = "id"
         Me.txtIdSong.Visible = False
         '
-        'txtCurrentPosition
+        'bawah
         '
-        Me.txtCurrentPosition.Location = New System.Drawing.Point(12, 12)
-        Me.txtCurrentPosition.Name = "txtCurrentPosition"
-        Me.txtCurrentPosition.Size = New System.Drawing.Size(76, 20)
-        Me.txtCurrentPosition.TabIndex = 8
-        Me.txtCurrentPosition.Text = "currentposition"
-        Me.txtCurrentPosition.Visible = False
+        Me.bawah.BackColor = System.Drawing.Color.Cyan
+        Me.bawah.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.bawah.Location = New System.Drawing.Point(2, 234)
+        Me.bawah.Name = "bawah"
+        Me.bawah.Size = New System.Drawing.Size(180, 2)
+        Me.bawah.TabIndex = 19
+        '
+        'kanan
+        '
+        Me.kanan.BackColor = System.Drawing.Color.Cyan
+        Me.kanan.Dock = System.Windows.Forms.DockStyle.Right
+        Me.kanan.Location = New System.Drawing.Point(182, 2)
+        Me.kanan.Name = "kanan"
+        Me.kanan.Size = New System.Drawing.Size(2, 234)
+        Me.kanan.TabIndex = 18
+        '
+        'kiri
+        '
+        Me.kiri.BackColor = System.Drawing.Color.Cyan
+        Me.kiri.Dock = System.Windows.Forms.DockStyle.Left
+        Me.kiri.Location = New System.Drawing.Point(0, 2)
+        Me.kiri.Name = "kiri"
+        Me.kiri.Size = New System.Drawing.Size(2, 234)
+        Me.kiri.TabIndex = 17
+        '
+        'atas
+        '
+        Me.atas.BackColor = System.Drawing.Color.Cyan
+        Me.atas.Dock = System.Windows.Forms.DockStyle.Top
+        Me.atas.Location = New System.Drawing.Point(0, 0)
+        Me.atas.Name = "atas"
+        Me.atas.Size = New System.Drawing.Size(184, 2)
+        Me.atas.TabIndex = 16
         '
         'SongCard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.ClientSize = New System.Drawing.Size(184, 253)
-        Me.Controls.Add(Me.txtCurrentPosition)
+        Me.ClientSize = New System.Drawing.Size(184, 236)
+        Me.Controls.Add(Me.bawah)
+        Me.Controls.Add(Me.kanan)
+        Me.Controls.Add(Me.kiri)
+        Me.Controls.Add(Me.atas)
         Me.Controls.Add(Me.txtIdSong)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.pctIconPlayNPause)
         Me.Controls.Add(Me.txtSourceSong)
-        Me.Controls.Add(Me.lblDescription)
         Me.Controls.Add(Me.lblArtist)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.pctCover)
@@ -140,7 +163,7 @@ Partial Class SongCard
         Me.Name = "SongCard"
         Me.Text = "SongCard"
         CType(Me.pctCover, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pctIconPlayNPause, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -149,10 +172,12 @@ Partial Class SongCard
     Friend WithEvents pctCover As PictureBox
     Friend WithEvents lblTitle As Label
     Friend WithEvents lblArtist As Label
-    Friend WithEvents lblDescription As Label
     Friend WithEvents txtSourceSong As TextBox
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents pctIconPlayNPause As PictureBox
     Friend WithEvents txtIdSong As TextBox
-    Friend WithEvents txtCurrentPosition As TextBox
+    Friend WithEvents bawah As Panel
+    Friend WithEvents kanan As Panel
+    Friend WithEvents kiri As Panel
+    Friend WithEvents atas As Panel
 End Class

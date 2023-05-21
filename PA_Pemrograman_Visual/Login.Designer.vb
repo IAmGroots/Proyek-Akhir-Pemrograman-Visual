@@ -71,6 +71,7 @@ Partial Class Login
         '
         Me.btnGoogle.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnGoogle.BackColor = System.Drawing.Color.White
+        Me.btnGoogle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGoogle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGoogle.Location = New System.Drawing.Point(963, 213)
@@ -84,6 +85,7 @@ Partial Class Login
         '
         Me.btnApple.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnApple.BackColor = System.Drawing.Color.White
+        Me.btnApple.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnApple.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnApple.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApple.Location = New System.Drawing.Point(756, 213)
@@ -165,6 +167,7 @@ Partial Class Login
         '
         Me.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnRegister.BackColor = System.Drawing.Color.White
+        Me.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Location = New System.Drawing.Point(757, 534)
@@ -190,6 +193,7 @@ Partial Class Login
         '
         Me.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnLogin.BackColor = System.Drawing.Color.White
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Location = New System.Drawing.Point(1063, 448)
@@ -268,7 +272,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblApp)
         Me.Controls.Add(Me.background)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Login"
         Me.Text = "Login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

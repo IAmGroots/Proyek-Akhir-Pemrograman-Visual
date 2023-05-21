@@ -100,28 +100,34 @@
     <Compile Include="AdminMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminReadArtist.Designer.vb">
-      <DependentUpon>AdminReadArtist.vb</DependentUpon>
+    <Compile Include="AdminListArtist.Designer.vb">
+      <DependentUpon>AdminListArtist.vb</DependentUpon>
     </Compile>
-    <Compile Include="AdminReadArtist.vb">
+    <Compile Include="AdminListArtist.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminReadSong.Designer.vb">
-      <DependentUpon>AdminReadSong.vb</DependentUpon>
+    <Compile Include="AdminListSong.Designer.vb">
+      <DependentUpon>AdminListSong.vb</DependentUpon>
     </Compile>
-    <Compile Include="AdminReadSong.vb">
+    <Compile Include="AdminListSong.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminUpdateArtist.Designer.vb">
-      <DependentUpon>AdminUpdateArtist.vb</DependentUpon>
+    <Compile Include="AdminDetailArtist.Designer.vb">
+      <DependentUpon>AdminDetailArtist.vb</DependentUpon>
     </Compile>
-    <Compile Include="AdminUpdateArtist.vb">
+    <Compile Include="AdminDetailArtist.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminUpdateSong.Designer.vb">
-      <DependentUpon>AdminUpdateSong.vb</DependentUpon>
+    <Compile Include="AdminDetailSong.Designer.vb">
+      <DependentUpon>AdminDetailSong.vb</DependentUpon>
     </Compile>
-    <Compile Include="AdminUpdateSong.vb">
+    <Compile Include="AdminDetailSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSongCard.Designer.vb">
+      <DependentUpon>AdminSongCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSongCard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="App.vb">
@@ -131,7 +137,37 @@
       <DependentUpon>App.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AdminArtistCard.Designer.vb">
+      <DependentUpon>AdminArtistCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArtistCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Bantuan.vb" />
+    <Compile Include="DetailPlaylist.Designer.vb">
+      <DependentUpon>DetailPlaylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetailPlaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailSong.Designer.vb">
+      <DependentUpon>DetailSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetailSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListPlaylist.Designer.vb">
+      <DependentUpon>ListPlaylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListPlaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListSong.Designer.vb">
+      <DependentUpon>ListSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu.Designer.vb">
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
@@ -144,16 +180,16 @@
     <Compile Include="Playlist.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PlaylistCard.Designer.vb">
+      <DependentUpon>PlaylistCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Search.Designer.vb">
       <DependentUpon>Search.vb</DependentUpon>
     </Compile>
     <Compile Include="Search.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Guest.Designer.vb">
-      <DependentUpon>Guest.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Guest.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.vb">
@@ -196,6 +232,18 @@
     <Compile Include="SongCard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SongInPlaylist.Designer.vb">
+      <DependentUpon>SongInPlaylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SongInPlaylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing.Designer.vb">
+      <DependentUpon>Testing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AdminCreateArtist.resx">
@@ -210,26 +258,41 @@
     <EmbeddedResource Include="AdminMenu.resx">
       <DependentUpon>AdminMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminReadArtist.resx">
-      <DependentUpon>AdminReadArtist.vb</DependentUpon>
+    <EmbeddedResource Include="AdminListArtist.resx">
+      <DependentUpon>AdminListArtist.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminReadSong.resx">
-      <DependentUpon>AdminReadSong.vb</DependentUpon>
+    <EmbeddedResource Include="AdminListSong.resx">
+      <DependentUpon>AdminListSong.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminUpdateArtist.resx">
-      <DependentUpon>AdminUpdateArtist.vb</DependentUpon>
+    <EmbeddedResource Include="AdminDetailArtist.resx">
+      <DependentUpon>AdminDetailArtist.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminUpdateSong.resx">
-      <DependentUpon>AdminUpdateSong.vb</DependentUpon>
+    <EmbeddedResource Include="AdminDetailSong.resx">
+      <DependentUpon>AdminDetailSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSongCard.resx">
+      <DependentUpon>AdminSongCard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="App.resx">
       <DependentUpon>App.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Guest.resx">
-      <DependentUpon>Guest.vb</DependentUpon>
+    <EmbeddedResource Include="AdminArtistCard.resx">
+      <DependentUpon>AdminArtistCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailPlaylist.resx">
+      <DependentUpon>DetailPlaylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailSong.resx">
+      <DependentUpon>DetailSong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPlaylist.resx">
+      <DependentUpon>ListPlaylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSong.resx">
+      <DependentUpon>ListSong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -246,6 +309,9 @@
     <EmbeddedResource Include="Playlist.resx">
       <DependentUpon>Playlist.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistCard.resx">
+      <DependentUpon>PlaylistCard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
     </EmbeddedResource>
@@ -254,6 +320,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SongCard.resx">
       <DependentUpon>SongCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SongInPlaylist.resx">
+      <DependentUpon>SongInPlaylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing.resx">
+      <DependentUpon>Testing.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

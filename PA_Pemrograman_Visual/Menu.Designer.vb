@@ -26,14 +26,14 @@ Partial Class Menu
         Me.btnSearchPage = New System.Windows.Forms.Button()
         Me.btnPlaylistPage = New System.Windows.Forms.Button()
         Me.btnBrandPage = New System.Windows.Forms.Button()
-        Me.btnLoginAndLogout = New System.Windows.Forms.Button()
+        Me.btnLogout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnHomePage
         '
         Me.btnHomePage.BackColor = System.Drawing.Color.Transparent
         Me.btnHomePage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnHomePage.FlatAppearance.BorderSize = 0
+        Me.btnHomePage.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnHomePage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnHomePage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnHomePage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -50,7 +50,7 @@ Partial Class Menu
         '
         Me.btnSearchPage.BackColor = System.Drawing.Color.Transparent
         Me.btnSearchPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSearchPage.FlatAppearance.BorderSize = 0
+        Me.btnSearchPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnSearchPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnSearchPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnSearchPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -67,7 +67,7 @@ Partial Class Menu
         '
         Me.btnPlaylistPage.BackColor = System.Drawing.Color.Transparent
         Me.btnPlaylistPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnPlaylistPage.FlatAppearance.BorderSize = 0
+        Me.btnPlaylistPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnPlaylistPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnPlaylistPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnPlaylistPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -82,29 +82,33 @@ Partial Class Menu
         '
         'btnBrandPage
         '
-        Me.btnBrandPage.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btnBrandPage.FlatAppearance.BorderSize = 0
+        Me.btnBrandPage.BackColor = System.Drawing.Color.Black
+        Me.btnBrandPage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBrandPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnBrandPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black
+        Me.btnBrandPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
         Me.btnBrandPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnBrandPage.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBrandPage.ForeColor = System.Drawing.Color.White
         Me.btnBrandPage.Location = New System.Drawing.Point(11, 12)
         Me.btnBrandPage.Name = "btnBrandPage"
-        Me.btnBrandPage.Size = New System.Drawing.Size(175, 40)
+        Me.btnBrandPage.Size = New System.Drawing.Size(181, 40)
         Me.btnBrandPage.TabIndex = 3
         Me.btnBrandPage.Text = "XtremeMusix"
         Me.btnBrandPage.UseVisualStyleBackColor = False
         '
-        'btnLoginAndLogout
+        'btnLogout
         '
-        Me.btnLoginAndLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLoginAndLogout.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLoginAndLogout.ForeColor = System.Drawing.Color.White
-        Me.btnLoginAndLogout.Location = New System.Drawing.Point(1238, 12)
-        Me.btnLoginAndLogout.Name = "btnLoginAndLogout"
-        Me.btnLoginAndLogout.Size = New System.Drawing.Size(100, 40)
-        Me.btnLoginAndLogout.TabIndex = 6
-        Me.btnLoginAndLogout.Text = "Login"
-        Me.btnLoginAndLogout.UseVisualStyleBackColor = True
+        Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogout.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Location = New System.Drawing.Point(1238, 12)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Size = New System.Drawing.Size(100, 40)
+        Me.btnLogout.TabIndex = 6
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.UseVisualStyleBackColor = True
         '
         'Menu
         '
@@ -116,7 +120,7 @@ Partial Class Menu
         Me.Controls.Add(Me.btnSearchPage)
         Me.Controls.Add(Me.btnHomePage)
         Me.Controls.Add(Me.btnBrandPage)
-        Me.Controls.Add(Me.btnLoginAndLogout)
+        Me.Controls.Add(Me.btnLogout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Menu"
         Me.Text = "Menu"
@@ -128,5 +132,5 @@ Partial Class Menu
     Friend WithEvents btnSearchPage As Button
     Friend WithEvents btnPlaylistPage As Button
     Friend WithEvents btnBrandPage As Button
-    Friend WithEvents btnLoginAndLogout As Button
+    Friend WithEvents btnLogout As Button
 End Class

@@ -1,5 +1,4 @@
-﻿Imports System.Data.SqlClient
-Imports MySql.Data.MySqlClient
+﻿Imports MySql.Data.MySqlClient
 
 Module Bantuan
     Public CONN As MySqlConnection
@@ -9,6 +8,8 @@ Module Bantuan
     Public DS As DataSet
     Public DATABASE As String
 
+    Public UID As Integer = 0 'id_user yang aktif
+
     Public PATH_COVER As String = CurDir() & "\Cover\"
     Public PATH_ARTIST As String = CurDir() & "\Artist\"
     Public PATH_SONG As String = CurDir() & "\Song\"
@@ -16,8 +17,8 @@ Module Bantuan
     Public ID_PLAYING As Integer = 0
     Public playing As Boolean = False
 
-    Public a As String = ""
-    Public b As String = ""
+    Public LAST_MENU_USER As String = "Home"
+    Public LAST_MENU_ADMIN As String = "Song"
 
     Sub koneksi()
         Try

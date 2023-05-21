@@ -25,20 +25,20 @@ Partial Class AdminMenu
         Me.btnArtistPage = New System.Windows.Forms.Button()
         Me.btnSongPage = New System.Windows.Forms.Button()
         Me.btnBrandPage = New System.Windows.Forms.Button()
-        Me.btnLoginAndLogout = New System.Windows.Forms.Button()
+        Me.btnLogout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnArtistPage
         '
         Me.btnArtistPage.BackColor = System.Drawing.Color.Transparent
         Me.btnArtistPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnArtistPage.FlatAppearance.BorderSize = 0
+        Me.btnArtistPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnArtistPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnArtistPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnArtistPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnArtistPage.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnArtistPage.ForeColor = System.Drawing.Color.White
-        Me.btnArtistPage.Location = New System.Drawing.Point(639, 12)
+        Me.btnArtistPage.Location = New System.Drawing.Point(710, 12)
         Me.btnArtistPage.Name = "btnArtistPage"
         Me.btnArtistPage.Size = New System.Drawing.Size(100, 40)
         Me.btnArtistPage.TabIndex = 8
@@ -49,13 +49,13 @@ Partial Class AdminMenu
         '
         Me.btnSongPage.BackColor = System.Drawing.Color.Transparent
         Me.btnSongPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSongPage.FlatAppearance.BorderSize = 0
+        Me.btnSongPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnSongPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnSongPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnSongPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSongPage.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSongPage.ForeColor = System.Drawing.Color.White
-        Me.btnSongPage.Location = New System.Drawing.Point(499, 12)
+        Me.btnSongPage.Location = New System.Drawing.Point(532, 12)
         Me.btnSongPage.Name = "btnSongPage"
         Me.btnSongPage.Size = New System.Drawing.Size(100, 40)
         Me.btnSongPage.TabIndex = 7
@@ -65,28 +65,32 @@ Partial Class AdminMenu
         'btnBrandPage
         '
         Me.btnBrandPage.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btnBrandPage.FlatAppearance.BorderSize = 0
+        Me.btnBrandPage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBrandPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnBrandPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnBrandPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnBrandPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnBrandPage.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBrandPage.ForeColor = System.Drawing.Color.White
         Me.btnBrandPage.Location = New System.Drawing.Point(12, 12)
         Me.btnBrandPage.Name = "btnBrandPage"
-        Me.btnBrandPage.Size = New System.Drawing.Size(175, 40)
+        Me.btnBrandPage.Size = New System.Drawing.Size(178, 40)
         Me.btnBrandPage.TabIndex = 10
         Me.btnBrandPage.Text = "XtremeMusix"
         Me.btnBrandPage.UseVisualStyleBackColor = False
         '
-        'btnLoginAndLogout
+        'btnLogout
         '
-        Me.btnLoginAndLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLoginAndLogout.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLoginAndLogout.ForeColor = System.Drawing.Color.White
-        Me.btnLoginAndLogout.Location = New System.Drawing.Point(1239, 12)
-        Me.btnLoginAndLogout.Name = "btnLoginAndLogout"
-        Me.btnLoginAndLogout.Size = New System.Drawing.Size(100, 40)
-        Me.btnLoginAndLogout.TabIndex = 11
-        Me.btnLoginAndLogout.Text = "Login"
-        Me.btnLoginAndLogout.UseVisualStyleBackColor = True
+        Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogout.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Location = New System.Drawing.Point(1239, 12)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Size = New System.Drawing.Size(100, 40)
+        Me.btnLogout.TabIndex = 11
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.UseVisualStyleBackColor = True
         '
         'AdminMenu
         '
@@ -97,7 +101,7 @@ Partial Class AdminMenu
         Me.Controls.Add(Me.btnArtistPage)
         Me.Controls.Add(Me.btnSongPage)
         Me.Controls.Add(Me.btnBrandPage)
-        Me.Controls.Add(Me.btnLoginAndLogout)
+        Me.Controls.Add(Me.btnLogout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "AdminMenu"
         Me.Text = "AdminMenu"
@@ -107,5 +111,5 @@ Partial Class AdminMenu
     Friend WithEvents btnArtistPage As Button
     Friend WithEvents btnSongPage As Button
     Friend WithEvents btnBrandPage As Button
-    Friend WithEvents btnLoginAndLogout As Button
+    Friend WithEvents btnLogout As Button
 End Class

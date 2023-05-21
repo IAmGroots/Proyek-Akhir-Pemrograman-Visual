@@ -22,6 +22,7 @@ Partial Class Register
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Register))
         Me.pctCoverRegister = New System.Windows.Forms.PictureBox()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -40,6 +41,7 @@ Partial Class Register
         Me.lblApp = New System.Windows.Forms.Label()
         Me.background = New System.Windows.Forms.Button()
         Me.cbxAgreement = New System.Windows.Forms.CheckBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pctCoverRegister, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -81,6 +83,7 @@ Partial Class Register
         '
         Me.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnRegister.BackColor = System.Drawing.Color.White
+        Me.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Location = New System.Drawing.Point(491, 454)
@@ -106,6 +109,7 @@ Partial Class Register
         '
         Me.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnLogin.BackColor = System.Drawing.Color.White
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Location = New System.Drawing.Point(185, 540)
@@ -175,6 +179,7 @@ Partial Class Register
         '
         Me.btnApple.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnApple.BackColor = System.Drawing.Color.White
+        Me.btnApple.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnApple.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnApple.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApple.Location = New System.Drawing.Point(184, 219)
@@ -188,6 +193,7 @@ Partial Class Register
         '
         Me.btnGoogle.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnGoogle.BackColor = System.Drawing.Color.White
+        Me.btnGoogle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGoogle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGoogle.Location = New System.Drawing.Point(391, 219)
@@ -237,6 +243,7 @@ Partial Class Register
         '
         Me.cbxAgreement.AutoSize = True
         Me.cbxAgreement.BackColor = System.Drawing.Color.White
+        Me.cbxAgreement.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cbxAgreement.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxAgreement.Location = New System.Drawing.Point(183, 454)
         Me.cbxAgreement.Name = "cbxAgreement"
@@ -244,6 +251,10 @@ Partial Class Register
         Me.cbxAgreement.TabIndex = 42
         Me.cbxAgreement.Text = "I accept the terms of the aggrement"
         Me.cbxAgreement.UseVisualStyleBackColor = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
         '
         'Register
         '
@@ -268,7 +279,7 @@ Partial Class Register
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblApp)
         Me.Controls.Add(Me.background)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Register"
         Me.Text = "Register"
         CType(Me.pctCoverRegister, System.ComponentModel.ISupportInitialize).EndInit()
@@ -293,4 +304,5 @@ Partial Class Register
     Friend WithEvents lblApp As Label
     Friend WithEvents background As Button
     Friend WithEvents cbxAgreement As CheckBox
+    Friend WithEvents Timer1 As Timer
 End Class
