@@ -76,18 +76,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminCreateArtist.Designer.vb">
-      <DependentUpon>AdminCreateArtist.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AdminCreateArtist.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminCreateSong.Designer.vb">
-      <DependentUpon>AdminCreateSong.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AdminCreateSong.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="AdminHome.Designer.vb">
       <DependentUpon>AdminHome.vb</DependentUpon>
     </Compile>
@@ -246,12 +234,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AdminCreateArtist.resx">
-      <DependentUpon>AdminCreateArtist.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminCreateSong.resx">
-      <DependentUpon>AdminCreateSong.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AdminHome.resx">
       <DependentUpon>AdminHome.vb</DependentUpon>
     </EmbeddedResource>
