@@ -189,7 +189,7 @@ Public Class AdminDetailArtist
     End Sub
 
     Private Sub txtName_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtName.KeyPress, txtDescription.KeyPress, txtCountry.KeyPress
-        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
             e.Handled = True
         End If
     End Sub
