@@ -82,3 +82,44 @@ D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_V
 D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.exe
 D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.xml
 D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.pdb
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe.config
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.pdb
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.xml
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\Interop.WMPLib.dll
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\AxInterop.WMPLib.dll
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.AssemblyReference.cache
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.SuggestedBindingRedirects.cache
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\Interop.WMPLib.dll
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\AxInterop.WMPLib.dll
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.ResolveComReference.cache
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminHome.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminMenu.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListArtist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListSong.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailArtist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailSong.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminSongCard.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminArtistCard.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailPlaylist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailSong.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ForgotPassword.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Home.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListPlaylist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListSong.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Login.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Menu.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Resources.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Playlist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.PlaylistCard.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Register.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Search.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongInPlaylist.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Testing.resources
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.GenerateResource.cache
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CoreCompileInputs.cache
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CopyComplete
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.exe
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.xml
+D:\kuliah\semester 4\visual\pa\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.pdb
