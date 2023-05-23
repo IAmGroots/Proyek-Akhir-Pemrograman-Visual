@@ -121,8 +121,8 @@ Public Class Search
                 searchSongs()
             End If
         End If
-        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
-            e.Handled = True
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
+            e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
         End If
     End Sub
 End Class

@@ -324,8 +324,8 @@ Public Class AdminDetailSong
     End Sub
 
     Private Sub txtDescription_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtGenre.KeyPress, txtDescription.KeyPress
-        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
-            e.Handled = True
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
+            e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
         End If
     End Sub
 
