@@ -39,6 +39,7 @@
     End Sub
 
     Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+        AdminHome.MediaPlayers.Ctlcontrols.stop()
         Login.Show()
         AdminHome.Hide()
     End Sub

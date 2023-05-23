@@ -43,7 +43,7 @@ Public Class Login
             End If
         ElseIf Not RD.HasRows Then
             RD.Close()
-            MessageBox.Show("Username dan password tidak ditemukan", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Username dan password tidak ditemukan", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Error)
             txtUsername.Focus()
             txtUsername.Text = ""
             txtPassword.Text = ""
@@ -76,11 +76,9 @@ Public Class Login
         End If
     End Sub
 
-
     Private Sub txtUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtUsername.KeyPress, txtPassword.KeyPress
-        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
-            e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
         End If
     End Sub
-
 End Class

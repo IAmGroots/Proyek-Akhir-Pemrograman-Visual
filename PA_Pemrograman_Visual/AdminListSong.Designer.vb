@@ -37,10 +37,10 @@ Partial Class AdminListSong
         '
         Me.lblKosong.AutoSize = True
         Me.lblKosong.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblKosong.Location = New System.Drawing.Point(40, 37)
-        Me.lblKosong.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
+        Me.lblKosong.Location = New System.Drawing.Point(30, 30)
+        Me.lblKosong.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
         Me.lblKosong.Name = "lblKosong"
-        Me.lblKosong.Size = New System.Drawing.Size(495, 32)
+        Me.lblKosong.Size = New System.Drawing.Size(385, 25)
         Me.lblKosong.TabIndex = 0
         Me.lblKosong.Text = "Oops, saat ini tidak ada daftar lagu"
         '
@@ -50,16 +50,9 @@ Partial Class AdminListSong
         Me.panelSong.BackColor = System.Drawing.Color.LightGray
         Me.panelSong.Controls.Add(Me.lblKosong)
         Me.panelSong.Dock = System.Windows.Forms.DockStyle.Bottom
-
-        'Me.panelSong.Location = New System.Drawing.Point(0, 61)
-        'Me.panelSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        'Me.panelSong.Name = "panelsong"
-        'Me.panelSong.Size = New System.Drawing.Size(1800, 757)
-
         Me.panelSong.Location = New System.Drawing.Point(0, 50)
         Me.panelSong.Name = "panelSong"
         Me.panelSong.Size = New System.Drawing.Size(1350, 615)
-
         Me.panelSong.TabIndex = 2
         '
         'pctIconNewSong
@@ -67,10 +60,9 @@ Partial Class AdminListSong
         Me.pctIconNewSong.BackColor = System.Drawing.Color.White
         Me.pctIconNewSong.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctIconNewSong.Image = CType(resources.GetObject("pctIconNewSong.Image"), System.Drawing.Image)
-        Me.pctIconNewSong.Location = New System.Drawing.Point(799, 10)
-        Me.pctIconNewSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pctIconNewSong.Location = New System.Drawing.Point(599, 8)
         Me.pctIconNewSong.Name = "pctIconNewSong"
-        Me.pctIconNewSong.Size = New System.Drawing.Size(47, 43)
+        Me.pctIconNewSong.Size = New System.Drawing.Size(35, 35)
         Me.pctIconNewSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconNewSong.TabIndex = 8
         Me.pctIconNewSong.TabStop = False
@@ -79,16 +71,9 @@ Partial Class AdminListSong
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
-        'Me.Label1.Location = New System.Drawing.Point(853, 17)
-        'Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        'Me.Label1.Name = "Label1"
-        'Me.Label1.Size = New System.Drawing.Size(134, 29)
-
         Me.Label1.Location = New System.Drawing.Point(640, 14)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(107, 23)
-
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "New Song"
         '
@@ -100,26 +85,19 @@ Partial Class AdminListSong
         Me.btnAddSong.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddSong.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnAddSong.Location = New System.Drawing.Point(0, 0)
-
-        'Me.btnAddSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        'Me.btnAddSong.Name = "btnAddSong"
-        'Me.btnAddSong.Size = New System.Drawing.Size(1800, 62)
-
         Me.btnAddSong.Name = "btnAddSong"
         Me.btnAddSong.Size = New System.Drawing.Size(1350, 50)
-
         Me.btnAddSong.TabIndex = 7
         '
         'AdminListSong
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1800, 818)
+        Me.ClientSize = New System.Drawing.Size(1350, 665)
         Me.Controls.Add(Me.btnAddSong)
         Me.Controls.Add(Me.panelSong)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "AdminListSong"
         Me.Text = "AdminReadSong"
         Me.panelSong.ResumeLayout(False)

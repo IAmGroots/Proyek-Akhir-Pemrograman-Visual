@@ -1,8 +1,4 @@
-﻿Imports System.Media
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
-Imports MySql.Data.MySqlClient
-
-Public Class Home
+﻿Public Class Home
     Sub panelMenu(ByVal panel As Form)
         panel.TopLevel = False
         panel.WindowState = FormWindowState.Maximized
@@ -31,5 +27,4 @@ Public Class Home
         ID_PREVIOUS_PLAYING = 0
         AudioPanel.Visible = False
     End Sub
-
 End Class

@@ -38,10 +38,9 @@ Partial Class Playlist
         Me.pctIconNewPlaylist.BackColor = System.Drawing.Color.White
         Me.pctIconNewPlaylist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctIconNewPlaylist.Image = CType(resources.GetObject("pctIconNewPlaylist.Image"), System.Drawing.Image)
-        Me.pctIconNewPlaylist.Location = New System.Drawing.Point(799, 10)
-        Me.pctIconNewPlaylist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pctIconNewPlaylist.Location = New System.Drawing.Point(599, 8)
         Me.pctIconNewPlaylist.Name = "pctIconNewPlaylist"
-        Me.pctIconNewPlaylist.Size = New System.Drawing.Size(47, 43)
+        Me.pctIconNewPlaylist.Size = New System.Drawing.Size(35, 35)
         Me.pctIconNewPlaylist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconNewPlaylist.TabIndex = 8
         Me.pctIconNewPlaylist.TabStop = False
@@ -52,20 +51,19 @@ Partial Class Playlist
         Me.panelPlaylist.BackColor = System.Drawing.Color.LightGray
         Me.panelPlaylist.Controls.Add(Me.lblKeterangan)
         Me.panelPlaylist.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.panelPlaylist.Location = New System.Drawing.Point(0, 61)
-        Me.panelPlaylist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.panelPlaylist.Location = New System.Drawing.Point(0, 50)
         Me.panelPlaylist.Name = "panelPlaylist"
-        Me.panelPlaylist.Size = New System.Drawing.Size(1800, 757)
+        Me.panelPlaylist.Size = New System.Drawing.Size(1350, 615)
         Me.panelPlaylist.TabIndex = 10
         '
         'lblKeterangan
         '
         Me.lblKeterangan.AutoSize = True
         Me.lblKeterangan.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblKeterangan.Location = New System.Drawing.Point(40, 37)
-        Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
+        Me.lblKeterangan.Location = New System.Drawing.Point(30, 30)
+        Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
         Me.lblKeterangan.Name = "lblKeterangan"
-        Me.lblKeterangan.Size = New System.Drawing.Size(441, 32)
+        Me.lblKeterangan.Size = New System.Drawing.Size(345, 25)
         Me.lblKeterangan.TabIndex = 3
         Me.lblKeterangan.Text = "Oops, saat ini tidak ada playlist"
         '
@@ -77,32 +75,30 @@ Partial Class Playlist
         Me.btnAddPlaylist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddPlaylist.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnAddPlaylist.Location = New System.Drawing.Point(0, 0)
-        Me.btnAddPlaylist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnAddPlaylist.Name = "btnAddPlaylist"
-        Me.btnAddPlaylist.Size = New System.Drawing.Size(1800, 62)
+        Me.btnAddPlaylist.Size = New System.Drawing.Size(1350, 50)
         Me.btnAddPlaylist.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(853, 17)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(640, 14)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(155, 29)
+        Me.Label1.Size = New System.Drawing.Size(126, 23)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "New Playlist"
         '
         'Playlist
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1800, 818)
+        Me.ClientSize = New System.Drawing.Size(1350, 665)
         Me.Controls.Add(Me.panelPlaylist)
         Me.Controls.Add(Me.btnAddPlaylist)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Playlist"
         Me.Text = "Playlist"
         CType(Me.pctIconNewPlaylist, System.ComponentModel.ISupportInitialize).EndInit()

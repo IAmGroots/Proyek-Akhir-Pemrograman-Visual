@@ -91,12 +91,8 @@ Partial Class Register
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.ForeColor = System.Drawing.Color.White
-
-        'Me.btnRegister.Location = New System.Drawing.Point(491, 454)
-
         Me.btnRegister.Location = New System.Drawing.Point(655, 559)
         Me.btnRegister.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(133, 39)
         Me.btnRegister.TabIndex = 35
@@ -124,12 +120,8 @@ Partial Class Register
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.White
-
-        'Me.btnLogin.Location = New System.Drawing.Point(185, 540)
-
         Me.btnLogin.Location = New System.Drawing.Point(247, 665)
         Me.btnLogin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(541, 39)
         Me.btnLogin.TabIndex = 33
@@ -208,12 +200,8 @@ Partial Class Register
         Me.btnApple.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnApple.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApple.ForeColor = System.Drawing.Color.White
-
-        'Me.btnApple.Location = New System.Drawing.Point(184, 219)
-
         Me.btnApple.Location = New System.Drawing.Point(245, 270)
         Me.btnApple.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnApple.Name = "btnApple"
         Me.btnApple.Size = New System.Drawing.Size(267, 39)
         Me.btnApple.TabIndex = 26
@@ -228,12 +216,8 @@ Partial Class Register
         Me.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGoogle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGoogle.ForeColor = System.Drawing.Color.White
-
-        'Me.btnGoogle.Location = New System.Drawing.Point(391, 219)
-
         Me.btnGoogle.Location = New System.Drawing.Point(521, 270)
         Me.btnGoogle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnGoogle.Name = "btnGoogle"
         Me.btnGoogle.Size = New System.Drawing.Size(267, 39)
         Me.btnGoogle.TabIndex = 25
@@ -285,12 +269,8 @@ Partial Class Register
         Me.cbxAgreement.BackColor = System.Drawing.Color.White
         Me.cbxAgreement.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cbxAgreement.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
-        'Me.cbxAgreement.Location = New System.Drawing.Point(183, 466)
-
         Me.cbxAgreement.Location = New System.Drawing.Point(244, 574)
         Me.cbxAgreement.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.cbxAgreement.Name = "cbxAgreement"
         Me.cbxAgreement.Size = New System.Drawing.Size(290, 20)
         Me.cbxAgreement.TabIndex = 42
@@ -308,12 +288,8 @@ Partial Class Register
         Me.cbxPass.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cbxPass.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxPass.ForeColor = System.Drawing.Color.Black
-
-        'Me.cbxPass.Location = New System.Drawing.Point(183, 441)
-
         Me.cbxPass.Location = New System.Drawing.Point(244, 543)
         Me.cbxPass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.cbxPass.Name = "cbxPass"
         Me.cbxPass.Size = New System.Drawing.Size(129, 20)
         Me.cbxPass.TabIndex = 43
@@ -325,11 +301,7 @@ Partial Class Register
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-
-        'Me.ClientSize = New System.Drawing.Size(1350, 730)
-
         Me.ClientSize = New System.Drawing.Size(1800, 898)
-
         Me.Controls.Add(Me.cbxPass)
         Me.Controls.Add(Me.cbxAgreement)
         Me.Controls.Add(Me.pctCoverRegister)

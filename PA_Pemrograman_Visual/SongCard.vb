@@ -90,5 +90,4 @@
         detail.txtIdSong.Text = txtIdSong.Text
         changeContent(detail)
     End Sub
-
 End Class

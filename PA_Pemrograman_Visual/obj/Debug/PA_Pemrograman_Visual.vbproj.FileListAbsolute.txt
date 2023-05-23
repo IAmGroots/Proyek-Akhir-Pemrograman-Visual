@@ -1,40 +1,84 @@
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe.config
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.pdb
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.xml
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\Interop.WMPLib.dll
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.AssemblyReference.cache
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.SuggestedBindingRedirects.cache
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\Interop.WMPLib.dll
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.ResolveComReference.cache
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminHome.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminMenu.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListArtist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListSong.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailArtist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailSong.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminSongCard.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminArtistCard.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailPlaylist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailSong.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ForgotPassword.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Home.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListPlaylist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListSong.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Login.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Menu.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Resources.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Playlist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.PlaylistCard.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Register.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Search.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongInPlaylist.resources
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.GenerateResource.cache
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CoreCompileInputs.cache
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CopyComplete
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.exe
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.xml
-C:\Users\Msi-GK\source\repos\PA\PA-Pemrograman-Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.pdb
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe.config
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.pdb
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.xml
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.AssemblyReference.cache
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.SuggestedBindingRedirects.cache
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Resources.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.GenerateResource.cache
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CoreCompileInputs.cache
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.exe
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.xml
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.pdb
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Login.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Register.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Home.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Menu.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Search.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Playlist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\Interop.WMPLib.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\AxInterop.WMPLib.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\Interop.WMPLib.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\AxInterop.WMPLib.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.ResolveComReference.cache
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminHome.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminMenu.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\mysql.data.dll
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CopyComplete
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListSong.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailSong.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.PlaylistCard.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailPlaylist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongInPlaylist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListPlaylist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListArtist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListSong.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailArtist.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailSong.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminArtistCard.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminSongCard.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Testing.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ForgotPassword.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe.config
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.exe
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.pdb
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.xml
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\mysql.data.dll
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\Interop.WMPLib.dll
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\bin\Debug\AxInterop.WMPLib.dll
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.AssemblyReference.cache
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.SuggestedBindingRedirects.cache
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\Interop.WMPLib.dll
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\AxInterop.WMPLib.dll
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.ResolveComReference.cache
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminHome.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminMenu.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListArtist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminListSong.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailArtist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminDetailSong.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminSongCard.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminArtistCard.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailPlaylist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.DetailSong.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ForgotPassword.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Home.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListPlaylist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ListSong.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Login.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Menu.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Resources.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Playlist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.PlaylistCard.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Register.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Search.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongInPlaylist.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Testing.resources
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.GenerateResource.cache
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CoreCompileInputs.cache
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CopyComplete
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.exe
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.xml
+D:\Proyek Visual Studio\PA REAL\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.pdb

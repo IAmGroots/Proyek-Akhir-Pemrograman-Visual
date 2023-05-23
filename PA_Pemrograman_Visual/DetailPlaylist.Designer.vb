@@ -92,16 +92,10 @@ Partial Class DetailPlaylist
         '
         Me.iconTitle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconTitle.Image = CType(resources.GetObject("iconTitle.Image"), System.Drawing.Image)
-
-        'Me.iconTitle.Location = New System.Drawing.Point(697, 105)
-        'Me.iconTitle.Name = "iconTitle"
-        'Me.iconTitle.Size = New System.Drawing.Size(30, 30)
-
         Me.iconTitle.Location = New System.Drawing.Point(929, 129)
         Me.iconTitle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconTitle.Name = "iconTitle"
         Me.iconTitle.Size = New System.Drawing.Size(40, 37)
-
         Me.iconTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconTitle.TabIndex = 46
         Me.iconTitle.TabStop = False
@@ -207,11 +201,7 @@ Partial Class DetailPlaylist
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-
-        'Me.ClientSize = New System.Drawing.Size(1350, 665)
-
         Me.ClientSize = New System.Drawing.Size(1800, 818)
-
         Me.Controls.Add(Me.panelListSong)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnBack)

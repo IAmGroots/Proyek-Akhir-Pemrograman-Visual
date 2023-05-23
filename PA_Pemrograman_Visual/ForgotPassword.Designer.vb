@@ -59,11 +59,7 @@ Partial Class ForgotPassword
         Me.Label6.Location = New System.Drawing.Point(389, 608)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-
-        'Me.Label6.Size = New System.Drawing.Size(252, 20)
-
         Me.Label6.Size = New System.Drawing.Size(195, 16)
-
         Me.Label6.TabIndex = 53
         Me.Label6.Text = "Already have an account?"
         '
@@ -92,11 +88,7 @@ Partial Class ForgotPassword
         Me.txtPassword.Location = New System.Drawing.Point(244, 370)
         Me.txtPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPassword.Name = "txtPassword"
-
-        'Me.txtPassword.Size = New System.Drawing.Size(543, 36)
-
         Me.txtPassword.Size = New System.Drawing.Size(543, 31)
-
         Me.txtPassword.TabIndex = 51
         Me.txtPassword.UseSystemPasswordChar = True
         '
@@ -109,11 +101,7 @@ Partial Class ForgotPassword
         Me.Label4.Location = New System.Drawing.Point(241, 338)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-
-        'Me.Label4.Size = New System.Drawing.Size(149, 20)
-
         Me.Label4.Size = New System.Drawing.Size(112, 16)
-
         Me.Label4.TabIndex = 50
         Me.Label4.Text = "New Password"
         '
@@ -126,11 +114,7 @@ Partial Class ForgotPassword
         Me.Label3.Location = New System.Drawing.Point(240, 245)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-
-        'Me.Label3.Size = New System.Drawing.Size(104, 20)
-
         Me.Label3.Size = New System.Drawing.Size(81, 16)
-
         Me.Label3.TabIndex = 49
         Me.Label3.Text = "Username"
         '
@@ -143,11 +127,7 @@ Partial Class ForgotPassword
         Me.txtUsername.Location = New System.Drawing.Point(245, 277)
         Me.txtUsername.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtUsername.Name = "txtUsername"
-
-        'Me.txtUsername.Size = New System.Drawing.Size(542, 36)
-
         Me.txtUsername.Size = New System.Drawing.Size(542, 31)
-
         Me.txtUsername.TabIndex = 48
         '
         'lblApp
@@ -159,11 +139,7 @@ Partial Class ForgotPassword
         Me.lblApp.Location = New System.Drawing.Point(409, 171)
         Me.lblApp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblApp.Name = "lblApp"
-
-        'Me.lblApp.Size = New System.Drawing.Size(213, 36)
-
         Me.lblApp.Size = New System.Drawing.Size(167, 29)
-
         Me.lblApp.TabIndex = 43
         Me.lblApp.Text = "XtremeMusix"
         '
@@ -205,11 +181,7 @@ Partial Class ForgotPassword
         Me.txtConfirm.Location = New System.Drawing.Point(244, 466)
         Me.txtConfirm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtConfirm.Name = "txtConfirm"
-
-        'Me.txtConfirm.Size = New System.Drawing.Size(543, 36)
-
         Me.txtConfirm.Size = New System.Drawing.Size(543, 31)
-
         Me.txtConfirm.TabIndex = 61
         Me.txtConfirm.UseSystemPasswordChar = True
         '
@@ -222,11 +194,7 @@ Partial Class ForgotPassword
         Me.Label1.Location = New System.Drawing.Point(241, 434)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-
-        'Me.Label1.Size = New System.Drawing.Size(182, 20)
-
         Me.Label1.Size = New System.Drawing.Size(138, 16)
-
         Me.Label1.TabIndex = 60
         Me.Label1.Text = "Confirm Password"
         '
@@ -240,11 +208,7 @@ Partial Class ForgotPassword
         Me.cbxPass.Location = New System.Drawing.Point(244, 514)
         Me.cbxPass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cbxPass.Name = "cbxPass"
-
-        'Me.cbxPass.Size = New System.Drawing.Size(165, 24)
-
         Me.cbxPass.Size = New System.Drawing.Size(129, 20)
-
         Me.cbxPass.TabIndex = 62
         Me.cbxPass.Text = "Show password"
         Me.cbxPass.UseVisualStyleBackColor = False
@@ -269,9 +233,7 @@ Partial Class ForgotPassword
         Me.Controls.Add(Me.lblApp)
         Me.Controls.Add(Me.background)
         Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.MaximizeBox = False
-
         Me.Name = "ForgotPassword"
         Me.Text = "Forgot Password"
         CType(Me.pctCoverRegister, System.ComponentModel.ISupportInitialize).EndInit()

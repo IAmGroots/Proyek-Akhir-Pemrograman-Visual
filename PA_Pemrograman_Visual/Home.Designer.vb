@@ -42,20 +42,18 @@ Partial Class Home
         Me.AudioPanel.Controls.Add(Me.backgroundMediaPlayer)
         Me.AudioPanel.Controls.Add(Me.MediaPlayers)
         Me.AudioPanel.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.AudioPanel.Location = New System.Drawing.Point(0, 808)
-        Me.AudioPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AudioPanel.Location = New System.Drawing.Point(0, 657)
         Me.AudioPanel.Name = "AudioPanel"
-        Me.AudioPanel.Size = New System.Drawing.Size(1800, 89)
+        Me.AudioPanel.Size = New System.Drawing.Size(1350, 72)
         Me.AudioPanel.TabIndex = 1
         '
         'btnDown
         '
         Me.btnDown.BackColor = System.Drawing.Color.White
         Me.btnDown.Image = CType(resources.GetObject("btnDown.Image"), System.Drawing.Image)
-        Me.btnDown.Location = New System.Drawing.Point(1745, 4)
-        Me.btnDown.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnDown.Location = New System.Drawing.Point(1309, 3)
         Me.btnDown.Name = "btnDown"
-        Me.btnDown.Size = New System.Drawing.Size(33, 31)
+        Me.btnDown.Size = New System.Drawing.Size(25, 25)
         Me.btnDown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnDown.TabIndex = 3
         Me.btnDown.TabStop = False
@@ -67,10 +65,9 @@ Partial Class Home
         Me.txtTitleMediaPlayer.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.txtTitleMediaPlayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.txtTitleMediaPlayer.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTitleMediaPlayer.Location = New System.Drawing.Point(5, 1)
-        Me.txtTitleMediaPlayer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txtTitleMediaPlayer.Location = New System.Drawing.Point(4, 1)
         Me.txtTitleMediaPlayer.Name = "txtTitleMediaPlayer"
-        Me.txtTitleMediaPlayer.Size = New System.Drawing.Size(177, 32)
+        Me.txtTitleMediaPlayer.Size = New System.Drawing.Size(138, 25)
         Me.txtTitleMediaPlayer.TabIndex = 3
         Me.txtTitleMediaPlayer.Text = "Title - Artist"
         '
@@ -87,9 +84,8 @@ Partial Class Home
         Me.backgroundMediaPlayer.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.backgroundMediaPlayer.ForeColor = System.Drawing.Color.Black
         Me.backgroundMediaPlayer.Location = New System.Drawing.Point(0, 0)
-        Me.backgroundMediaPlayer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.backgroundMediaPlayer.Name = "backgroundMediaPlayer"
-        Me.backgroundMediaPlayer.Size = New System.Drawing.Size(1800, 34)
+        Me.backgroundMediaPlayer.Size = New System.Drawing.Size(1350, 28)
         Me.backgroundMediaPlayer.TabIndex = 3
         Me.backgroundMediaPlayer.UseVisualStyleBackColor = False
         '
@@ -98,10 +94,9 @@ Partial Class Home
         Me.MediaPlayers.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MediaPlayers.Enabled = True
         Me.MediaPlayers.Location = New System.Drawing.Point(0, 0)
-        Me.MediaPlayers.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MediaPlayers.Name = "MediaPlayers"
         Me.MediaPlayers.OcxState = CType(resources.GetObject("MediaPlayers.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.MediaPlayers.Size = New System.Drawing.Size(1800, 89)
+        Me.MediaPlayers.Size = New System.Drawing.Size(1350, 72)
         Me.MediaPlayers.TabIndex = 3
         '
         'MenuPanel
@@ -110,37 +105,30 @@ Partial Class Home
         Me.MenuPanel.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.MenuPanel.Location = New System.Drawing.Point(0, 0)
-        Me.MenuPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MenuPanel.Name = "MenuPanel"
-        Me.MenuPanel.Size = New System.Drawing.Size(1800, 79)
+        Me.MenuPanel.Size = New System.Drawing.Size(1350, 64)
         Me.MenuPanel.TabIndex = 0
         '
         'Content
         '
         Me.Content.BackColor = System.Drawing.Color.LightGray
         Me.Content.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.Content.Location = New System.Drawing.Point(0, 79)
-        Me.Content.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Content.Location = New System.Drawing.Point(0, 64)
         Me.Content.Name = "Content"
-        Me.Content.Size = New System.Drawing.Size(1800, 818)
+        Me.Content.Size = New System.Drawing.Size(1350, 665)
         Me.Content.TabIndex = 2
         '
         'Home
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
-
-        'Me.ClientSize = New System.Drawing.Size(1800, 897)
-
         Me.ClientSize = New System.Drawing.Size(1350, 729)
-
         Me.Controls.Add(Me.AudioPanel)
         Me.Controls.Add(Me.MenuPanel)
         Me.Controls.Add(Me.Content)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "Home"
         Me.Text = "Home"

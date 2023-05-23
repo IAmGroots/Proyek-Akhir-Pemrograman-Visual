@@ -51,12 +51,8 @@ Partial Class Login
         Me.lblApp.BackColor = System.Drawing.Color.White
         Me.lblApp.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblApp.ForeColor = System.Drawing.Color.Black
-
-        'Me.lblApp.Location = New System.Drawing.Point(879, 133)
-
         Me.lblApp.Location = New System.Drawing.Point(1172, 164)
         Me.lblApp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-
         Me.lblApp.Name = "lblApp"
         Me.lblApp.Size = New System.Drawing.Size(167, 29)
         Me.lblApp.TabIndex = 2
@@ -83,12 +79,8 @@ Partial Class Login
         Me.btnGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGoogle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGoogle.ForeColor = System.Drawing.Color.White
-
-        'Me.btnGoogle.Location = New System.Drawing.Point(963, 213)
-
         Me.btnGoogle.Location = New System.Drawing.Point(1284, 262)
         Me.btnGoogle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnGoogle.Name = "btnGoogle"
         Me.btnGoogle.Size = New System.Drawing.Size(267, 39)
         Me.btnGoogle.TabIndex = 5
@@ -103,12 +95,8 @@ Partial Class Login
         Me.btnApple.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnApple.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApple.ForeColor = System.Drawing.Color.White
-
-        'Me.btnApple.Location = New System.Drawing.Point(756, 213)
-
         Me.btnApple.Location = New System.Drawing.Point(1008, 262)
         Me.btnApple.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnApple.Name = "btnApple"
         Me.btnApple.Size = New System.Drawing.Size(267, 39)
         Me.btnApple.TabIndex = 6
@@ -185,12 +173,8 @@ Partial Class Login
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.ForeColor = System.Drawing.Color.White
-
-        'Me.btnRegister.Location = New System.Drawing.Point(757, 534)
-
         Me.btnRegister.Location = New System.Drawing.Point(1009, 657)
         Me.btnRegister.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(541, 39)
         Me.btnRegister.TabIndex = 13
@@ -218,12 +202,8 @@ Partial Class Login
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.White
-
-        'Me.btnLogin.Location = New System.Drawing.Point(1063, 448)
-
         Me.btnLogin.Location = New System.Drawing.Point(1417, 551)
         Me.btnLogin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(133, 39)
         Me.btnLogin.TabIndex = 15
@@ -287,12 +267,8 @@ Partial Class Login
         Me.forgot.BackColor = System.Drawing.Color.White
         Me.forgot.Cursor = System.Windows.Forms.Cursors.Hand
         Me.forgot.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
-        'Me.forgot.Location = New System.Drawing.Point(753, 457)
-
         Me.forgot.Location = New System.Drawing.Point(1004, 562)
         Me.forgot.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-
         Me.forgot.Name = "forgot"
         Me.forgot.Size = New System.Drawing.Size(174, 16)
         Me.forgot.TabIndex = 12
@@ -305,12 +281,8 @@ Partial Class Login
         Me.cbxPass.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cbxPass.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxPass.ForeColor = System.Drawing.Color.Black
-
-        'Me.cbxPass.Location = New System.Drawing.Point(755, 435)
-
         Me.cbxPass.Location = New System.Drawing.Point(1007, 535)
         Me.cbxPass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-
         Me.cbxPass.Name = "cbxPass"
         Me.cbxPass.Size = New System.Drawing.Size(129, 20)
         Me.cbxPass.TabIndex = 22
@@ -322,11 +294,7 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-
-        'Me.ClientSize = New System.Drawing.Size(1350, 730)
-
         Me.ClientSize = New System.Drawing.Size(1800, 898)
-
         Me.Controls.Add(Me.cbxPass)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button9)

@@ -172,15 +172,9 @@ Public Class DetailPlaylist
         End If
     End Sub
 
-
-    'Private Sub txtTitle_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress
-    'If Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) Then
-    'e.Handled = True
-
     Private Sub txtTitle_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtDescription.KeyPress
-        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
-            e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
-
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
         End If
     End Sub
 End Class
