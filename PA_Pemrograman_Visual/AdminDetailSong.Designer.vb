@@ -97,7 +97,7 @@ Partial Class AdminDetailSong
         Me.lblSection.Location = New System.Drawing.Point(16, 10)
         Me.lblSection.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSection.Name = "lblSection"
-        Me.lblSection.Size = New System.Drawing.Size(150, 23)
+        Me.lblSection.Size = New System.Drawing.Size(190, 29)
         Me.lblSection.TabIndex = 11
         Me.lblSection.Text = "Recommended"
         '
@@ -119,7 +119,7 @@ Partial Class AdminDetailSong
         Me.lblKeterangan.Location = New System.Drawing.Point(40, 37)
         Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
         Me.lblKeterangan.Name = "lblKeterangan"
-        Me.lblKeterangan.Size = New System.Drawing.Size(385, 25)
+        Me.lblKeterangan.Size = New System.Drawing.Size(495, 32)
         Me.lblKeterangan.TabIndex = 2
         Me.lblKeterangan.Text = "Oops, saat ini tidak ada daftar lagu"
         '
@@ -208,7 +208,11 @@ Partial Class AdminDetailSong
         Me.txtUpdate_at.Location = New System.Drawing.Point(487, 15)
         Me.txtUpdate_at.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.txtUpdate_at.Name = "txtUpdate_at"
+
+        'Me.txtUpdate_at.Size = New System.Drawing.Size(113, 20)
+
         Me.txtUpdate_at.Size = New System.Drawing.Size(83, 16)
+
         Me.txtUpdate_at.TabIndex = 49
         Me.txtUpdate_at.Text = "2023/05/21"
         '
@@ -219,7 +223,11 @@ Partial Class AdminDetailSong
         Me.LabelUpdateAt.Location = New System.Drawing.Point(357, 15)
         Me.LabelUpdateAt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LabelUpdateAt.Name = "LabelUpdateAt"
+
+        'Me.LabelUpdateAt.Size = New System.Drawing.Size(125, 20)
+
         Me.LabelUpdateAt.Size = New System.Drawing.Size(98, 16)
+
         Me.LabelUpdateAt.TabIndex = 48
         Me.LabelUpdateAt.Text = "Last Update :"
         '
@@ -266,7 +274,7 @@ Partial Class AdminDetailSong
         Me.Label4.Location = New System.Drawing.Point(352, 183)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(119, 23)
+        Me.Label4.Size = New System.Drawing.Size(148, 29)
         Me.Label4.TabIndex = 44
         Me.Label4.Text = "Description"
         '
@@ -277,7 +285,7 @@ Partial Class AdminDetailSong
         Me.Label3.Location = New System.Drawing.Point(352, 95)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(61, 23)
+        Me.Label3.Size = New System.Drawing.Size(76, 29)
         Me.Label3.TabIndex = 43
         Me.Label3.Text = "Artist"
         '
@@ -288,7 +296,7 @@ Partial Class AdminDetailSong
         Me.Label2.Location = New System.Drawing.Point(352, 140)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(67, 23)
+        Me.Label2.Size = New System.Drawing.Size(85, 29)
         Me.Label2.TabIndex = 42
         Me.Label2.Text = "Genre"
         '
@@ -299,7 +307,7 @@ Partial Class AdminDetailSong
         Me.Label1.Location = New System.Drawing.Point(352, 49)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 23)
+        Me.Label1.Size = New System.Drawing.Size(63, 29)
         Me.Label1.TabIndex = 41
         Me.Label1.Text = "Title"
         '
@@ -442,7 +450,11 @@ Partial Class AdminDetailSong
         Me.cmbArtist.Location = New System.Drawing.Point(453, 91)
         Me.cmbArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbArtist.Name = "cmbArtist"
+
+        'Me.cmbArtist.Size = New System.Drawing.Size(439, 37)
+
         Me.cmbArtist.Size = New System.Drawing.Size(439, 31)
+
         Me.cmbArtist.TabIndex = 28
         '
         'txtGenre

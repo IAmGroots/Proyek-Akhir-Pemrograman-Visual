@@ -59,4 +59,5 @@ Public Class Playlist
         MsgBox("Berhasil Membuat Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         changeContent(New Playlist)
     End Sub
+
 End Class

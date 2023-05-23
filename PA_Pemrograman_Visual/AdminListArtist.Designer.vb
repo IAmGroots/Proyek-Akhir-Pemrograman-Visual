@@ -38,9 +38,10 @@ Partial Class AdminListArtist
         Me.pctIconNewArtist.BackColor = System.Drawing.Color.White
         Me.pctIconNewArtist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctIconNewArtist.Image = CType(resources.GetObject("pctIconNewArtist.Image"), System.Drawing.Image)
-        Me.pctIconNewArtist.Location = New System.Drawing.Point(599, 8)
+        Me.pctIconNewArtist.Location = New System.Drawing.Point(799, 10)
+        Me.pctIconNewArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pctIconNewArtist.Name = "pctIconNewArtist"
-        Me.pctIconNewArtist.Size = New System.Drawing.Size(35, 35)
+        Me.pctIconNewArtist.Size = New System.Drawing.Size(47, 43)
         Me.pctIconNewArtist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconNewArtist.TabIndex = 8
         Me.pctIconNewArtist.TabStop = False
@@ -49,9 +50,16 @@ Partial Class AdminListArtist
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        'Me.Label1.Location = New System.Drawing.Point(853, 17)
+        'Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        'Me.Label1.Name = "Label1"
+        'Me.Label1.Size = New System.Drawing.Size(136, 29)
+
         Me.Label1.Location = New System.Drawing.Point(640, 14)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(109, 23)
+
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "New Artist"
         '
@@ -63,18 +71,31 @@ Partial Class AdminListArtist
         Me.btnAddArtist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddArtist.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnAddArtist.Location = New System.Drawing.Point(0, 0)
+
+        'Me.btnAddArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        'Me.btnAddArtist.Name = "btnAddArtist"
+        'Me.btnAddArtist.Size = New System.Drawing.Size(1800, 62)
+
         Me.btnAddArtist.Name = "btnAddArtist"
         Me.btnAddArtist.Size = New System.Drawing.Size(1350, 50)
+
         Me.btnAddArtist.TabIndex = 9
         '
         'lblKosong
         '
         Me.lblKosong.AutoSize = True
         Me.lblKosong.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        'Me.lblKosong.Location = New System.Drawing.Point(40, 37)
+        'Me.lblKosong.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
+        'Me.lblKosong.Name = "lblKosong"
+        'Me.lblKosong.Size = New System.Drawing.Size(509, 32)
+
         Me.lblKosong.Location = New System.Drawing.Point(30, 30)
         Me.lblKosong.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
         Me.lblKosong.Name = "lblKosong"
         Me.lblKosong.Size = New System.Drawing.Size(395, 25)
+
         Me.lblKosong.TabIndex = 0
         Me.lblKosong.Text = "Oops, saat ini tidak ada daftar artist"
         '
@@ -84,20 +105,28 @@ Partial Class AdminListArtist
         Me.panelArtist.BackColor = System.Drawing.Color.LightGray
         Me.panelArtist.Controls.Add(Me.lblKosong)
         Me.panelArtist.Dock = System.Windows.Forms.DockStyle.Bottom
+
+        'Me.panelArtist.Location = New System.Drawing.Point(0, 61)
+        'Me.panelArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        'Me.panelArtist.Name = "panelArtist"
+        'Me.panelArtist.Size = New System.Drawing.Size(1800, 757)
+
         Me.panelArtist.Location = New System.Drawing.Point(0, 50)
         Me.panelArtist.Name = "panelArtist"
         Me.panelArtist.Size = New System.Drawing.Size(1350, 615)
+
         Me.panelArtist.TabIndex = 8
         '
         'AdminListArtist
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1350, 665)
+        Me.ClientSize = New System.Drawing.Size(1800, 818)
         Me.Controls.Add(Me.panelArtist)
         Me.Controls.Add(Me.btnAddArtist)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "AdminListArtist"
         Me.Text = "AdminReadArtist"
         CType(Me.pctIconNewArtist, System.ComponentModel.ISupportInitialize).EndInit()

@@ -42,4 +42,5 @@ Public Class AdminListArtist
         newArtist.txtIdArtist.Text = 0
         changeContent(newArtist)
     End Sub
+
 End Class

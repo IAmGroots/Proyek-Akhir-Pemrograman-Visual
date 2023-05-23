@@ -47,7 +47,7 @@ Partial Class ListSong
         Me.lblKosong.Location = New System.Drawing.Point(40, 37)
         Me.lblKosong.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
         Me.lblKosong.Name = "lblKosong"
-        Me.lblKosong.Size = New System.Drawing.Size(385, 25)
+        Me.lblKosong.Size = New System.Drawing.Size(495, 32)
         Me.lblKosong.TabIndex = 0
         Me.lblKosong.Text = "Oops, saat ini tidak ada daftar lagu"
         '

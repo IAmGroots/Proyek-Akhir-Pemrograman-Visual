@@ -70,10 +70,10 @@ Public Class Register
             txtPassword.UseSystemPasswordChar = True
         End If
     End Sub
-
     Private Sub txtUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtUsername.KeyPress, txtPassword.KeyPress
         If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
             e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
         End If
     End Sub
+
 End Class

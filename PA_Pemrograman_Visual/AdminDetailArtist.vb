@@ -188,9 +188,15 @@ Public Class AdminDetailArtist
         End If
     End Sub
 
+
+    'Private Sub txtName_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtName.KeyPress, txtCountry.KeyPress
+    'If Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) Then
+    'e.Handled = True
+
     Private Sub txtName_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtName.KeyPress, txtDescription.KeyPress, txtCountry.KeyPress
         If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
             e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
+
         End If
     End Sub
 

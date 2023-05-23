@@ -30,7 +30,11 @@ Public Class ForgotPassword
         RD.Read()
         If Not RD.HasRows Then
             RD.Close()
+
+            'MessageBox.Show("Username tidak ditemukan", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
             MessageBox.Show("Username tidak ditemukan", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
             txtUsername.Focus()
             txtUsername.Text = ""
             txtPassword.Text = ""
@@ -63,9 +67,11 @@ Public Class ForgotPassword
         End If
     End Sub
 
+
     Private Sub txtUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtUsername.KeyPress, txtPassword.KeyPress, txtConfirm.KeyPress
         If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
             e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
         End If
     End Sub
+
 End Class

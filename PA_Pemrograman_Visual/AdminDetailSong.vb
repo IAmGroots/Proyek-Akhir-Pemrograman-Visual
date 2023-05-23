@@ -323,9 +323,15 @@ Public Class AdminDetailSong
         End If
     End Sub
 
+
+    'Private Sub txtTitle_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtGenre.KeyPress
+    'If Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) Then
+    'e.Handled = True
+
     Private Sub txtDescription_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtGenre.KeyPress, txtDescription.KeyPress
         If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) AndAlso e.KeyChar <> " " Then
             e.Handled = True ' Mengabaikan karakter selain huruf, angka, spasi, dan backspace
+
         End If
     End Sub
 

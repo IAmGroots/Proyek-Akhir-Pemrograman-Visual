@@ -31,4 +31,5 @@ Public Class Home
         ID_PREVIOUS_PLAYING = 0
         AudioPanel.Visible = False
     End Sub
+
 End Class

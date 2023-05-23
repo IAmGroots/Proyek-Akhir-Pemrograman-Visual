@@ -225,12 +225,6 @@
     <Compile Include="SongInPlaylist.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Testing.Designer.vb">
-      <DependentUpon>Testing.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Testing.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AdminHome.resx">
@@ -304,9 +298,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SongInPlaylist.resx">
       <DependentUpon>SongInPlaylist.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Testing.resx">
-      <DependentUpon>Testing.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
