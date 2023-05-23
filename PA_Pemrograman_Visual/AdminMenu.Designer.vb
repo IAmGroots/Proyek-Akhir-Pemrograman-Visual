@@ -30,9 +30,9 @@ Partial Class AdminMenu
         '
         'btnArtistPage
         '
-        Me.btnArtistPage.BackColor = System.Drawing.Color.Transparent
+        Me.btnArtistPage.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnArtistPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnArtistPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnArtistPage.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnArtistPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnArtistPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnArtistPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -47,9 +47,9 @@ Partial Class AdminMenu
         '
         'btnSongPage
         '
-        Me.btnSongPage.BackColor = System.Drawing.Color.Transparent
+        Me.btnSongPage.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnSongPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSongPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnSongPage.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnSongPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnSongPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnSongPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -64,9 +64,9 @@ Partial Class AdminMenu
         '
         'btnBrandPage
         '
-        Me.btnBrandPage.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnBrandPage.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnBrandPage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnBrandPage.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btnBrandPage.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnBrandPage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.btnBrandPage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnBrandPage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -81,7 +81,11 @@ Partial Class AdminMenu
         '
         'btnLogout
         '
+        Me.btnLogout.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLogout.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.btnLogout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogout.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.ForeColor = System.Drawing.Color.White
@@ -90,13 +94,13 @@ Partial Class AdminMenu
         Me.btnLogout.Size = New System.Drawing.Size(100, 40)
         Me.btnLogout.TabIndex = 11
         Me.btnLogout.Text = "Logout"
-        Me.btnLogout.UseVisualStyleBackColor = True
+        Me.btnLogout.UseVisualStyleBackColor = False
         '
         'AdminMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1350, 64)
         Me.Controls.Add(Me.btnArtistPage)
         Me.Controls.Add(Me.btnSongPage)

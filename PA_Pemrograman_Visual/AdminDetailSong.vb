@@ -144,6 +144,11 @@ Public Class AdminDetailSong
         getOtherSong()
         pctIconSave.Focus()
         pctIconPlayNPause.Visible = False
+        'txtTitle.BorderStyle = BorderStyle.None
+        'txtGenre.BorderStyle = BorderStyle.None
+        'txtDescription.BorderStyle = BorderStyle.None
+        'fileCover.BorderStyle = BorderStyle.None
+        'fileSource.BorderStyle = BorderStyle.None
     End Sub
 
     Private Sub pctCover_MouseEnter(sender As Object, e As EventArgs) Handles pctCover.MouseEnter
@@ -242,7 +247,6 @@ Public Class AdminDetailSong
             pctCover.Image = Image.FromFile(lokasiAsal)
             File.Copy(lokasiAsal, lokasiTujuan, True)
             fileCover.Text = namaFile
-            MsgBox("OK")
         End If
     End Sub
 
@@ -255,7 +259,6 @@ Public Class AdminDetailSong
             Dim lokasiTujuan As String = Path.Combine(PATH_SONG, namaFile)
             File.Copy(lokasiAsal, lokasiTujuan, True)
             fileSource.Text = namaFile
-            MsgBox("OK")
         End If
     End Sub
 
@@ -278,7 +281,7 @@ Public Class AdminDetailSong
             Dim query As String = "INSERT INTO tbsong(id_song, id_artist, title, genre, description, cover, source, update_at) VALUES (NULL, '" & id_artist & "', '" & title & "', '" & genre & "', '" & desc & "', '" & cover & "', '" & source & "', '" & update_at & "')"
             CMD = New MySqlCommand(query, CONN)
             CMD.ExecuteNonQuery()
-            MsgBox("Ditambah")
+            MsgBox("Berhasil Menambahkan Lagu", MsgBoxStyle.Information, "Pemberitahuan")
             changeContent(New AdminListSong)
 
         Else
@@ -296,7 +299,7 @@ Public Class AdminDetailSong
             Dim query As String = "UPDATE tbsong SET id_artist = '" & id_artist & "', title = '" & title & "', genre = '" & genre & "', description = '" & desc & "', cover = '" & cover & "', source = '" & source & "', update_at = '" & update_at & "' WHERE id_song = " & id_song
             CMD = New MySqlCommand(query, CONN)
             CMD.ExecuteNonQuery()
-            MsgBox("Diubah")
+            MsgBox("Berhasil Mengubah Data Lagu", MsgBoxStyle.Information, "Pemberitahuan")
             Dim detail = New AdminDetailSong
             detail.txtIdSong.Text = txtIdSong.Text
             changeContent(detail)
@@ -308,7 +311,7 @@ Public Class AdminDetailSong
         Dim query As String = "DELETE FROM tbsong WHERE id_song = " & txtIdSong.Text
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Dihapus")
+        MsgBox("Berhasil Menghapus Lagu", MsgBoxStyle.Information, "Pemberitahuan")
         changeContent(New AdminListSong)
     End Sub
 
@@ -319,4 +322,34 @@ Public Class AdminDetailSong
             changeContent(New AdminListArtist)
         End If
     End Sub
+
+    Private Sub txtDescription_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtGenre.KeyPress, txtDescription.KeyPress
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    'Private Sub txtTitle_MouseEnter(sender As Object, e As EventArgs) Handles txtTitle.MouseEnter
+    '    txtTitle.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtTitle_MouseLeave(sender As Object, e As EventArgs) Handles txtTitle.MouseLeave
+    '    txtTitle.BorderStyle = BorderStyle.None
+    'End Sub
+
+    'Private Sub txtGenre_MouseEnter(sender As Object, e As EventArgs) Handles txtGenre.MouseEnter
+    '    txtGenre.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtGenre_MouseLeave(sender As Object, e As EventArgs) Handles txtGenre.MouseLeave
+    '    txtGenre.BorderStyle = BorderStyle.None
+    'End Sub
+
+    'Private Sub txtDescription_MouseEnter(sender As Object, e As EventArgs) Handles txtDescription.MouseEnter
+    '    txtDescription.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtDescription_MouseLeave(sender As Object, e As EventArgs) Handles txtDescription.MouseLeave
+    '    txtDescription.BorderStyle = BorderStyle.None
+    'End Sub
 End Class

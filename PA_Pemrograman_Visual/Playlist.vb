@@ -8,22 +8,7 @@ Public Class Playlist
         panel.Show()
     End Sub
 
-    Sub borderActive()
-        atas.Visible = True
-        kanan.Visible = True
-        bawah.Visible = True
-        kiri.Visible = True
-    End Sub
-
-    Sub borderDeactive()
-        atas.Visible = False
-        kanan.Visible = False
-        bawah.Visible = False
-        kiri.Visible = False
-    End Sub
-
     Private Sub Playlist_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        borderDeactive()
         'SELECT * FROM tbplaylist WHERE uid = 1
         Dim target As String = UID
         CMD = New MySqlCommand("SELECT * FROM tbplaylist WHERE uid = " & target, CONN)
@@ -61,19 +46,6 @@ Public Class Playlist
         End If
     End Sub
 
-    Private Sub btnAddPlaylist_MouseEnter(sender As Object, e As EventArgs) Handles pctIconNewPlaylist.MouseEnter, Label1.MouseEnter, btnAddPlaylist.MouseEnter
-        btnAddPlaylist.BackColor = Color.Gainsboro
-        pctIconNewPlaylist.BackColor = Color.Gainsboro
-        'borderActive()
-    End Sub
-
-    Private Sub btnAddPlaylist_MouseLeave(sender As Object, e As EventArgs) Handles pctIconNewPlaylist.MouseLeave, Label1.MouseLeave, btnAddPlaylist.MouseLeave
-        btnAddPlaylist.BackColor = Color.White
-        pctIconNewPlaylist.BackColor = Color.White
-        'borderDeactive()
-    End Sub
-
-    'INSERT INTO tbplaylist(id_playlist, uid, name, description, cover) VALUES (NULL, '1', 'New Playlist', 'This Is Description', 'default.jpg')
     Private Sub pctIconNewPlaylist_Click(sender As Object, e As EventArgs) Handles pctIconNewPlaylist.Click, Label1.Click, btnAddPlaylist.Click
         Dim id_user As Integer = UID
         Dim name As String = "New Playlist"
@@ -84,7 +56,7 @@ Public Class Playlist
         Dim query As String = "INSERT INTO tbplaylist(id_playlist, uid, name, description, cover) VALUES (NULL, '" & id_user & "', '" & name & "', '" & desc & "', '" & cover & "')"
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Ditambah")
+        MsgBox("Berhasil Membuat Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         changeContent(New Playlist)
     End Sub
 End Class

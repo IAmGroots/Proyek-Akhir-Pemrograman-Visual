@@ -4,7 +4,6 @@ D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\PA_Pemrograman_Visual.xml
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.AssemblyReference.cache
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.SuggestedBindingRedirects.cache
-D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.App.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Resources.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.GenerateResource.cache
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.CoreCompileInputs.cache
@@ -22,8 +21,6 @@ D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\bin\Debug\Ax
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\Interop.WMPLib.dll
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\AxInterop.WMPLib.dll
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.vbproj.ResolveComReference.cache
-D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminCreateArtist.resources
-D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminCreateSong.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminHome.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminMenu.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.SongCard.resources
@@ -42,3 +39,4 @@ D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminArtistCard.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.AdminSongCard.resources
 D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.Testing.resources
+D:\Proyek Visual Studio\PA_Pemrograman_Visual\PA_Pemrograman_Visual\obj\Debug\PA_Pemrograman_Visual.ForgotPassword.resources

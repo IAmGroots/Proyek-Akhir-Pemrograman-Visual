@@ -30,19 +30,22 @@ Partial Class ListSong
         'panelSong
         '
         Me.panelSong.AutoScroll = True
+        Me.panelSong.BackColor = System.Drawing.Color.LightGray
         Me.panelSong.Controls.Add(Me.lblKosong)
         Me.panelSong.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panelSong.Location = New System.Drawing.Point(0, 0)
+        Me.panelSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panelSong.Name = "panelSong"
-        Me.panelSong.Size = New System.Drawing.Size(1350, 665)
+        Me.panelSong.Size = New System.Drawing.Size(1800, 818)
         Me.panelSong.TabIndex = 1
         '
         'lblKosong
         '
         Me.lblKosong.AutoSize = True
         Me.lblKosong.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblKosong.Location = New System.Drawing.Point(30, 30)
-        Me.lblKosong.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
+        Me.lblKosong.ForeColor = System.Drawing.Color.Black
+        Me.lblKosong.Location = New System.Drawing.Point(40, 37)
+        Me.lblKosong.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
         Me.lblKosong.Name = "lblKosong"
         Me.lblKosong.Size = New System.Drawing.Size(385, 25)
         Me.lblKosong.TabIndex = 0
@@ -50,12 +53,13 @@ Partial Class ListSong
         '
         'ListSong
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1350, 665)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(1800, 818)
         Me.Controls.Add(Me.panelSong)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ListSong"
         Me.Text = "ListSong"
         Me.panelSong.ResumeLayout(False)

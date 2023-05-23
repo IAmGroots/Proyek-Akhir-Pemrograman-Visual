@@ -101,6 +101,7 @@ Partial Class AdminHome
         '
         'MenuPanel
         '
+        Me.MenuPanel.BackColor = System.Drawing.Color.LightGray
         Me.MenuPanel.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.MenuPanel.Location = New System.Drawing.Point(0, 0)
@@ -110,6 +111,7 @@ Partial Class AdminHome
         '
         'Content
         '
+        Me.Content.BackColor = System.Drawing.Color.Gainsboro
         Me.Content.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Content.Location = New System.Drawing.Point(0, 64)
         Me.Content.Name = "Content"

@@ -293,7 +293,7 @@ Partial Class DetailSong
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(1350, 665)
         Me.Controls.Add(Me.panelBackgroundSection)
         Me.Controls.Add(Me.panelBackground)

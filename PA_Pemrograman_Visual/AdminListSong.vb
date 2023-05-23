@@ -8,22 +8,7 @@ Public Class AdminListSong
         panel.Show()
     End Sub
 
-    Sub borderActive()
-        atas.Visible = True
-        kanan.Visible = True
-        bawah.Visible = True
-        kiri.Visible = True
-    End Sub
-
-    Sub borderDeactive()
-        atas.Visible = False
-        kanan.Visible = False
-        bawah.Visible = False
-        kiri.Visible = False
-    End Sub
-
     Private Sub AdminListSong_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        borderDeactive()
         'SELECT * From tbsong S Join tbartist A ON S.id_artist = A.id_artist
         DA = New MySqlDataAdapter("SELECT * From tbsong S Join tbartist A ON S.id_artist = A.id_artist", CONN)
         DS = New DataSet
@@ -52,18 +37,6 @@ Public Class AdminListSong
             panelSong.Controls.Add(song)
             song.Show()
         Next
-    End Sub
-
-    Private Sub btnAddSong_MouseEnter(sender As Object, e As EventArgs) Handles pctIconNewSong.MouseEnter, panelSong.MouseEnter, Label1.MouseEnter, btnAddSong.MouseEnter
-        btnAddSong.BackColor = Color.Gainsboro
-        pctIconNewSong.BackColor = Color.Gainsboro
-        Label1.BackColor = Color.Gainsboro
-    End Sub
-
-    Private Sub btnAddSong_MouseLeave(sender As Object, e As EventArgs) Handles pctIconNewSong.MouseLeave, panelSong.MouseLeave, Label1.MouseLeave, btnAddSong.MouseLeave
-        btnAddSong.BackColor = Color.White
-        pctIconNewSong.BackColor = Color.White
-        Label1.BackColor = Color.White
     End Sub
 
     Private Sub btnAddSong_Click(sender As Object, e As EventArgs) Handles pctIconNewSong.Click, Label1.Click, btnAddSong.Click

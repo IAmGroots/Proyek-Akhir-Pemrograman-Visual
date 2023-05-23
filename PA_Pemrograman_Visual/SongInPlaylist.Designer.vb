@@ -119,7 +119,7 @@ Partial Class SongInPlaylist
         '
         'atas
         '
-        Me.atas.BackColor = System.Drawing.Color.Cyan
+        Me.atas.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.atas.Dock = System.Windows.Forms.DockStyle.Top
         Me.atas.Location = New System.Drawing.Point(0, 0)
         Me.atas.Name = "atas"
@@ -128,7 +128,7 @@ Partial Class SongInPlaylist
         '
         'kiri
         '
-        Me.kiri.BackColor = System.Drawing.Color.Cyan
+        Me.kiri.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kiri.Dock = System.Windows.Forms.DockStyle.Left
         Me.kiri.Location = New System.Drawing.Point(0, 2)
         Me.kiri.Name = "kiri"
@@ -137,7 +137,7 @@ Partial Class SongInPlaylist
         '
         'kanan
         '
-        Me.kanan.BackColor = System.Drawing.Color.Cyan
+        Me.kanan.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kanan.Dock = System.Windows.Forms.DockStyle.Right
         Me.kanan.Location = New System.Drawing.Point(658, 2)
         Me.kanan.Name = "kanan"
@@ -146,7 +146,7 @@ Partial Class SongInPlaylist
         '
         'bawah
         '
-        Me.bawah.BackColor = System.Drawing.Color.Cyan
+        Me.bawah.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.bawah.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.bawah.Location = New System.Drawing.Point(2, 97)
         Me.bawah.Name = "bawah"
@@ -155,6 +155,7 @@ Partial Class SongInPlaylist
         '
         'txtIdPlaylist
         '
+        Me.txtIdPlaylist.BackColor = System.Drawing.Color.White
         Me.txtIdPlaylist.Location = New System.Drawing.Point(408, 12)
         Me.txtIdPlaylist.Name = "txtIdPlaylist"
         Me.txtIdPlaylist.Size = New System.Drawing.Size(76, 20)
@@ -166,7 +167,7 @@ Partial Class SongInPlaylist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(660, 99)
         Me.Controls.Add(Me.txtIdPlaylist)
         Me.Controls.Add(Me.bawah)

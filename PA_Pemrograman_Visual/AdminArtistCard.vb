@@ -7,7 +7,7 @@
     End Sub
 
     Private Sub lblArtist_MouseEnter(sender As Object, e As EventArgs) Handles lblArtist.MouseEnter
-        lblArtist.ForeColor = Color.Blue
+        lblArtist.ForeColor = Color.Red
     End Sub
 
     Private Sub lblArtist_MouseLeave(sender As Object, e As EventArgs) Handles lblArtist.MouseLeave

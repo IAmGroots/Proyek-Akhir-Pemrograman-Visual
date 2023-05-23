@@ -118,13 +118,6 @@
     <Compile Include="AdminSongCard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="App.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="App.Designer.vb">
-      <DependentUpon>App.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="AdminArtistCard.Designer.vb">
       <DependentUpon>AdminArtistCard.vb</DependentUpon>
     </Compile>
@@ -142,6 +135,12 @@
       <DependentUpon>DetailSong.vb</DependentUpon>
     </Compile>
     <Compile Include="DetailSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListPlaylist.Designer.vb">
@@ -255,9 +254,6 @@
     <EmbeddedResource Include="AdminSongCard.resx">
       <DependentUpon>AdminSongCard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="App.resx">
-      <DependentUpon>App.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AdminArtistCard.resx">
       <DependentUpon>AdminArtistCard.vb</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DetailSong.resx">
       <DependentUpon>DetailSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>

@@ -54,6 +54,7 @@ Partial Class SongCard
         'lblTitle
         '
         Me.lblTitle.AutoSize = True
+        Me.lblTitle.BackColor = System.Drawing.Color.Transparent
         Me.lblTitle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.lblTitle.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitle.ForeColor = System.Drawing.Color.Black
@@ -109,7 +110,7 @@ Partial Class SongCard
         '
         'bawah
         '
-        Me.bawah.BackColor = System.Drawing.Color.Cyan
+        Me.bawah.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.bawah.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.bawah.Location = New System.Drawing.Point(2, 234)
         Me.bawah.Name = "bawah"
@@ -118,7 +119,7 @@ Partial Class SongCard
         '
         'kanan
         '
-        Me.kanan.BackColor = System.Drawing.Color.Cyan
+        Me.kanan.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kanan.Dock = System.Windows.Forms.DockStyle.Right
         Me.kanan.Location = New System.Drawing.Point(182, 2)
         Me.kanan.Name = "kanan"
@@ -127,7 +128,7 @@ Partial Class SongCard
         '
         'kiri
         '
-        Me.kiri.BackColor = System.Drawing.Color.Cyan
+        Me.kiri.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kiri.Dock = System.Windows.Forms.DockStyle.Left
         Me.kiri.Location = New System.Drawing.Point(0, 2)
         Me.kiri.Name = "kiri"
@@ -136,7 +137,7 @@ Partial Class SongCard
         '
         'atas
         '
-        Me.atas.BackColor = System.Drawing.Color.Cyan
+        Me.atas.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.atas.Dock = System.Windows.Forms.DockStyle.Top
         Me.atas.Location = New System.Drawing.Point(0, 0)
         Me.atas.Name = "atas"
@@ -147,7 +148,7 @@ Partial Class SongCard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Gainsboro
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(184, 236)
         Me.Controls.Add(Me.bawah)
         Me.Controls.Add(Me.kanan)

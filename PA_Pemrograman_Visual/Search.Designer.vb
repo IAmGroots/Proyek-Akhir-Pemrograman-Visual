@@ -49,7 +49,7 @@ Partial Class Search
         '
         'panelBackgroundSearchBar
         '
-        Me.panelBackgroundSearchBar.BackColor = System.Drawing.Color.White
+        Me.panelBackgroundSearchBar.BackColor = System.Drawing.Color.LightGray
         Me.panelBackgroundSearchBar.Controls.Add(Me.iconRefresh)
         Me.panelBackgroundSearchBar.Controls.Add(Me.iconSearch)
         Me.panelBackgroundSearchBar.Controls.Add(Me.txtSearch)
@@ -84,6 +84,7 @@ Partial Class Search
         'panelResult
         '
         Me.panelResult.AutoScroll = True
+        Me.panelResult.BackColor = System.Drawing.Color.LightGray
         Me.panelResult.Controls.Add(Me.lblKeterangan)
         Me.panelResult.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.panelResult.Location = New System.Drawing.Point(0, 98)
@@ -95,6 +96,7 @@ Partial Class Search
         '
         Me.lblKeterangan.AutoSize = True
         Me.lblKeterangan.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblKeterangan.ForeColor = System.Drawing.Color.Black
         Me.lblKeterangan.Location = New System.Drawing.Point(30, 30)
         Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
         Me.lblKeterangan.Name = "lblKeterangan"
@@ -104,7 +106,7 @@ Partial Class Search
         '
         'panelBackgroundSection
         '
-        Me.panelBackgroundSection.BackColor = System.Drawing.Color.LightGray
+        Me.panelBackgroundSection.BackColor = System.Drawing.Color.White
         Me.panelBackgroundSection.Controls.Add(Me.lblSection)
         Me.panelBackgroundSection.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelBackgroundSection.Location = New System.Drawing.Point(0, 58)
@@ -115,7 +117,7 @@ Partial Class Search
         'lblSection
         '
         Me.lblSection.AutoSize = True
-        Me.lblSection.BackColor = System.Drawing.Color.LightGray
+        Me.lblSection.BackColor = System.Drawing.Color.White
         Me.lblSection.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblSection.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSection.Location = New System.Drawing.Point(12, 8)

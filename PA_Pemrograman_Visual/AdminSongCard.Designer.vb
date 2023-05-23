@@ -90,7 +90,7 @@ Partial Class AdminSongCard
         '
         'bawah
         '
-        Me.bawah.BackColor = System.Drawing.Color.Cyan
+        Me.bawah.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.bawah.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.bawah.Location = New System.Drawing.Point(2, 234)
         Me.bawah.Name = "bawah"
@@ -99,7 +99,7 @@ Partial Class AdminSongCard
         '
         'kanan
         '
-        Me.kanan.BackColor = System.Drawing.Color.Cyan
+        Me.kanan.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kanan.Dock = System.Windows.Forms.DockStyle.Right
         Me.kanan.Location = New System.Drawing.Point(182, 2)
         Me.kanan.Name = "kanan"
@@ -108,7 +108,7 @@ Partial Class AdminSongCard
         '
         'kiri
         '
-        Me.kiri.BackColor = System.Drawing.Color.Cyan
+        Me.kiri.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.kiri.Dock = System.Windows.Forms.DockStyle.Left
         Me.kiri.Location = New System.Drawing.Point(0, 2)
         Me.kiri.Name = "kiri"
@@ -117,7 +117,7 @@ Partial Class AdminSongCard
         '
         'atas
         '
-        Me.atas.BackColor = System.Drawing.Color.Cyan
+        Me.atas.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.atas.Dock = System.Windows.Forms.DockStyle.Top
         Me.atas.Location = New System.Drawing.Point(0, 0)
         Me.atas.Name = "atas"

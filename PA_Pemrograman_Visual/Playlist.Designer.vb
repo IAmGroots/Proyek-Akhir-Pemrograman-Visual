@@ -28,10 +28,6 @@ Partial Class Playlist
         Me.lblKeterangan = New System.Windows.Forms.Label()
         Me.btnAddPlaylist = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.kanan = New System.Windows.Forms.Panel()
-        Me.kiri = New System.Windows.Forms.Panel()
-        Me.bawah = New System.Windows.Forms.Panel()
-        Me.atas = New System.Windows.Forms.Panel()
         CType(Me.pctIconNewPlaylist, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panelPlaylist.SuspendLayout()
         Me.btnAddPlaylist.SuspendLayout()
@@ -52,6 +48,7 @@ Partial Class Playlist
         'panelPlaylist
         '
         Me.panelPlaylist.AutoScroll = True
+        Me.panelPlaylist.BackColor = System.Drawing.Color.LightGray
         Me.panelPlaylist.Controls.Add(Me.lblKeterangan)
         Me.panelPlaylist.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.panelPlaylist.Location = New System.Drawing.Point(0, 50)
@@ -75,10 +72,6 @@ Partial Class Playlist
         Me.btnAddPlaylist.BackColor = System.Drawing.Color.White
         Me.btnAddPlaylist.Controls.Add(Me.Label1)
         Me.btnAddPlaylist.Controls.Add(Me.pctIconNewPlaylist)
-        Me.btnAddPlaylist.Controls.Add(Me.kanan)
-        Me.btnAddPlaylist.Controls.Add(Me.kiri)
-        Me.btnAddPlaylist.Controls.Add(Me.bawah)
-        Me.btnAddPlaylist.Controls.Add(Me.atas)
         Me.btnAddPlaylist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddPlaylist.Dock = System.Windows.Forms.DockStyle.Top
         Me.btnAddPlaylist.Location = New System.Drawing.Point(0, 0)
@@ -95,42 +88,6 @@ Partial Class Playlist
         Me.Label1.Size = New System.Drawing.Size(126, 23)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "New Playlist"
-        '
-        'kanan
-        '
-        Me.kanan.BackColor = System.Drawing.Color.Cyan
-        Me.kanan.Dock = System.Windows.Forms.DockStyle.Right
-        Me.kanan.Location = New System.Drawing.Point(1348, 2)
-        Me.kanan.Name = "kanan"
-        Me.kanan.Size = New System.Drawing.Size(2, 46)
-        Me.kanan.TabIndex = 3
-        '
-        'kiri
-        '
-        Me.kiri.BackColor = System.Drawing.Color.Cyan
-        Me.kiri.Dock = System.Windows.Forms.DockStyle.Left
-        Me.kiri.Location = New System.Drawing.Point(0, 2)
-        Me.kiri.Name = "kiri"
-        Me.kiri.Size = New System.Drawing.Size(2, 46)
-        Me.kiri.TabIndex = 2
-        '
-        'bawah
-        '
-        Me.bawah.BackColor = System.Drawing.Color.Cyan
-        Me.bawah.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.bawah.Location = New System.Drawing.Point(0, 48)
-        Me.bawah.Name = "bawah"
-        Me.bawah.Size = New System.Drawing.Size(1350, 2)
-        Me.bawah.TabIndex = 1
-        '
-        'atas
-        '
-        Me.atas.BackColor = System.Drawing.Color.Cyan
-        Me.atas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.atas.Location = New System.Drawing.Point(0, 0)
-        Me.atas.Name = "atas"
-        Me.atas.Size = New System.Drawing.Size(1350, 2)
-        Me.atas.TabIndex = 0
         '
         'Playlist
         '
@@ -156,9 +113,5 @@ Partial Class Playlist
     Friend WithEvents panelPlaylist As FlowLayoutPanel
     Friend WithEvents lblKeterangan As Label
     Friend WithEvents btnAddPlaylist As Panel
-    Friend WithEvents atas As Panel
-    Friend WithEvents kanan As Panel
-    Friend WithEvents kiri As Panel
-    Friend WithEvents bawah As Panel
     Friend WithEvents Label1 As Label
 End Class

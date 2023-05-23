@@ -34,6 +34,8 @@ Partial Class AdminDetailSong
         Me.txtSourceSong = New System.Windows.Forms.TextBox()
         Me.txtIdSong = New System.Windows.Forms.TextBox()
         Me.panelBackground = New System.Windows.Forms.Panel()
+        Me.txtUpdate_at = New System.Windows.Forms.Label()
+        Me.LabelUpdateAt = New System.Windows.Forms.Label()
         Me.iconDescription = New System.Windows.Forms.PictureBox()
         Me.iconGenre = New System.Windows.Forms.PictureBox()
         Me.iconTitle = New System.Windows.Forms.PictureBox()
@@ -57,8 +59,6 @@ Partial Class AdminDetailSong
         Me.pctCover = New System.Windows.Forms.PictureBox()
         Me.OpenFileDialogCover = New System.Windows.Forms.OpenFileDialog()
         Me.OpenFileDialogSong = New System.Windows.Forms.OpenFileDialog()
-        Me.LabelUpdateAt = New System.Windows.Forms.Label()
-        Me.txtUpdate_at = New System.Windows.Forms.Label()
         Me.panelBackgroundSection.SuspendLayout()
         CType(Me.pctIconPlayNPause, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -82,9 +82,10 @@ Partial Class AdminDetailSong
         '
         Me.panelBackgroundSection.BackColor = System.Drawing.Color.White
         Me.panelBackgroundSection.Controls.Add(Me.lblSection)
-        Me.panelBackgroundSection.Location = New System.Drawing.Point(0, 326)
+        Me.panelBackgroundSection.Location = New System.Drawing.Point(0, 401)
+        Me.panelBackgroundSection.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panelBackgroundSection.Name = "panelBackgroundSection"
-        Me.panelBackgroundSection.Size = New System.Drawing.Size(1350, 40)
+        Me.panelBackgroundSection.Size = New System.Drawing.Size(1800, 49)
         Me.panelBackgroundSection.TabIndex = 15
         '
         'lblSection
@@ -93,7 +94,8 @@ Partial Class AdminDetailSong
         Me.lblSection.BackColor = System.Drawing.Color.White
         Me.lblSection.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblSection.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSection.Location = New System.Drawing.Point(12, 8)
+        Me.lblSection.Location = New System.Drawing.Point(16, 10)
+        Me.lblSection.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSection.Name = "lblSection"
         Me.lblSection.Size = New System.Drawing.Size(150, 23)
         Me.lblSection.TabIndex = 11
@@ -102,9 +104,10 @@ Partial Class AdminDetailSong
         'pctIconPlayNPause
         '
         Me.pctIconPlayNPause.Image = CType(resources.GetObject("pctIconPlayNPause.Image"), System.Drawing.Image)
-        Me.pctIconPlayNPause.Location = New System.Drawing.Point(187, 187)
+        Me.pctIconPlayNPause.Location = New System.Drawing.Point(249, 230)
+        Me.pctIconPlayNPause.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pctIconPlayNPause.Name = "pctIconPlayNPause"
-        Me.pctIconPlayNPause.Size = New System.Drawing.Size(75, 75)
+        Me.pctIconPlayNPause.Size = New System.Drawing.Size(100, 92)
         Me.pctIconPlayNPause.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconPlayNPause.TabIndex = 25
         Me.pctIconPlayNPause.TabStop = False
@@ -113,8 +116,8 @@ Partial Class AdminDetailSong
         '
         Me.lblKeterangan.AutoSize = True
         Me.lblKeterangan.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblKeterangan.Location = New System.Drawing.Point(30, 30)
-        Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(30, 30, 0, 0)
+        Me.lblKeterangan.Location = New System.Drawing.Point(40, 37)
+        Me.lblKeterangan.Margin = New System.Windows.Forms.Padding(40, 37, 0, 0)
         Me.lblKeterangan.Name = "lblKeterangan"
         Me.lblKeterangan.Size = New System.Drawing.Size(385, 25)
         Me.lblKeterangan.TabIndex = 2
@@ -124,9 +127,10 @@ Partial Class AdminDetailSong
         '
         Me.btnBack.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnBack.Image = CType(resources.GetObject("btnBack.Image"), System.Drawing.Image)
-        Me.btnBack.Location = New System.Drawing.Point(12, 6)
+        Me.btnBack.Location = New System.Drawing.Point(16, 7)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(30, 30)
+        Me.btnBack.Size = New System.Drawing.Size(40, 37)
         Me.btnBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnBack.TabIndex = 12
         Me.btnBack.TabStop = False
@@ -136,25 +140,28 @@ Partial Class AdminDetailSong
         Me.panelListSong.AutoScroll = True
         Me.panelListSong.Controls.Add(Me.lblKeterangan)
         Me.panelListSong.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.panelListSong.Location = New System.Drawing.Point(0, 366)
+        Me.panelListSong.Location = New System.Drawing.Point(0, 450)
+        Me.panelListSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panelListSong.Name = "panelListSong"
-        Me.panelListSong.Size = New System.Drawing.Size(1350, 299)
+        Me.panelListSong.Size = New System.Drawing.Size(1800, 368)
         Me.panelListSong.TabIndex = 14
         '
         'txtSourceSong
         '
-        Me.txtSourceSong.Location = New System.Drawing.Point(594, 12)
+        Me.txtSourceSong.Location = New System.Drawing.Point(792, 15)
+        Me.txtSourceSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSourceSong.Name = "txtSourceSong"
-        Me.txtSourceSong.Size = New System.Drawing.Size(76, 20)
+        Me.txtSourceSong.Size = New System.Drawing.Size(100, 22)
         Me.txtSourceSong.TabIndex = 17
         Me.txtSourceSong.Text = "source"
         Me.txtSourceSong.Visible = False
         '
         'txtIdSong
         '
-        Me.txtIdSong.Location = New System.Drawing.Point(512, 12)
+        Me.txtIdSong.Location = New System.Drawing.Point(683, 15)
+        Me.txtIdSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtIdSong.Name = "txtIdSong"
-        Me.txtIdSong.Size = New System.Drawing.Size(76, 20)
+        Me.txtIdSong.Size = New System.Drawing.Size(100, 22)
         Me.txtIdSong.TabIndex = 10
         Me.txtIdSong.Text = "id"
         Me.txtIdSong.Visible = False
@@ -188,18 +195,42 @@ Partial Class AdminDetailSong
         Me.panelBackground.Controls.Add(Me.txtSourceSong)
         Me.panelBackground.Controls.Add(Me.txtIdSong)
         Me.panelBackground.Controls.Add(Me.pctCover)
-        Me.panelBackground.Location = New System.Drawing.Point(12, 42)
+        Me.panelBackground.Location = New System.Drawing.Point(16, 52)
+        Me.panelBackground.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.panelBackground.Name = "panelBackground"
-        Me.panelBackground.Size = New System.Drawing.Size(1326, 275)
+        Me.panelBackground.Size = New System.Drawing.Size(1768, 338)
         Me.panelBackground.TabIndex = 13
+        '
+        'txtUpdate_at
+        '
+        Me.txtUpdate_at.AutoSize = True
+        Me.txtUpdate_at.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUpdate_at.Location = New System.Drawing.Point(487, 15)
+        Me.txtUpdate_at.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.txtUpdate_at.Name = "txtUpdate_at"
+        Me.txtUpdate_at.Size = New System.Drawing.Size(83, 16)
+        Me.txtUpdate_at.TabIndex = 49
+        Me.txtUpdate_at.Text = "2023/05/21"
+        '
+        'LabelUpdateAt
+        '
+        Me.LabelUpdateAt.AutoSize = True
+        Me.LabelUpdateAt.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelUpdateAt.Location = New System.Drawing.Point(357, 15)
+        Me.LabelUpdateAt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LabelUpdateAt.Name = "LabelUpdateAt"
+        Me.LabelUpdateAt.Size = New System.Drawing.Size(98, 16)
+        Me.LabelUpdateAt.TabIndex = 48
+        Me.LabelUpdateAt.Text = "Last Update :"
         '
         'iconDescription
         '
         Me.iconDescription.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconDescription.Image = CType(resources.GetObject("iconDescription.Image"), System.Drawing.Image)
-        Me.iconDescription.Location = New System.Drawing.Point(1224, 175)
+        Me.iconDescription.Location = New System.Drawing.Point(1632, 215)
+        Me.iconDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconDescription.Name = "iconDescription"
-        Me.iconDescription.Size = New System.Drawing.Size(30, 30)
+        Me.iconDescription.Size = New System.Drawing.Size(40, 37)
         Me.iconDescription.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconDescription.TabIndex = 47
         Me.iconDescription.TabStop = False
@@ -208,9 +239,10 @@ Partial Class AdminDetailSong
         '
         Me.iconGenre.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconGenre.Image = CType(resources.GetObject("iconGenre.Image"), System.Drawing.Image)
-        Me.iconGenre.Location = New System.Drawing.Point(676, 111)
+        Me.iconGenre.Location = New System.Drawing.Point(901, 137)
+        Me.iconGenre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconGenre.Name = "iconGenre"
-        Me.iconGenre.Size = New System.Drawing.Size(30, 30)
+        Me.iconGenre.Size = New System.Drawing.Size(40, 37)
         Me.iconGenre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconGenre.TabIndex = 46
         Me.iconGenre.TabStop = False
@@ -219,9 +251,10 @@ Partial Class AdminDetailSong
         '
         Me.iconTitle.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconTitle.Image = CType(resources.GetObject("iconTitle.Image"), System.Drawing.Image)
-        Me.iconTitle.Location = New System.Drawing.Point(676, 38)
+        Me.iconTitle.Location = New System.Drawing.Point(901, 47)
+        Me.iconTitle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconTitle.Name = "iconTitle"
-        Me.iconTitle.Size = New System.Drawing.Size(30, 30)
+        Me.iconTitle.Size = New System.Drawing.Size(40, 37)
         Me.iconTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconTitle.TabIndex = 45
         Me.iconTitle.TabStop = False
@@ -230,7 +263,8 @@ Partial Class AdminDetailSong
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(264, 149)
+        Me.Label4.Location = New System.Drawing.Point(352, 183)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(119, 23)
         Me.Label4.TabIndex = 44
@@ -240,7 +274,8 @@ Partial Class AdminDetailSong
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(264, 77)
+        Me.Label3.Location = New System.Drawing.Point(352, 95)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(61, 23)
         Me.Label3.TabIndex = 43
@@ -250,7 +285,8 @@ Partial Class AdminDetailSong
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(264, 114)
+        Me.Label2.Location = New System.Drawing.Point(352, 140)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(67, 23)
         Me.Label2.TabIndex = 42
@@ -260,7 +296,8 @@ Partial Class AdminDetailSong
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(264, 40)
+        Me.Label1.Location = New System.Drawing.Point(352, 49)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(52, 23)
         Me.Label1.TabIndex = 41
@@ -268,9 +305,10 @@ Partial Class AdminDetailSong
         '
         'txtArtist
         '
-        Me.txtArtist.Location = New System.Drawing.Point(676, 12)
+        Me.txtArtist.Location = New System.Drawing.Point(901, 15)
+        Me.txtArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtArtist.Name = "txtArtist"
-        Me.txtArtist.Size = New System.Drawing.Size(76, 20)
+        Me.txtArtist.Size = New System.Drawing.Size(100, 22)
         Me.txtArtist.TabIndex = 40
         Me.txtArtist.Text = "artist"
         Me.txtArtist.Visible = False
@@ -279,9 +317,10 @@ Partial Class AdminDetailSong
         '
         Me.iconFileSong.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconFileSong.Image = CType(resources.GetObject("iconFileSong.Image"), System.Drawing.Image)
-        Me.iconFileSong.Location = New System.Drawing.Point(1224, 75)
+        Me.iconFileSong.Location = New System.Drawing.Point(1632, 92)
+        Me.iconFileSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconFileSong.Name = "iconFileSong"
-        Me.iconFileSong.Size = New System.Drawing.Size(30, 30)
+        Me.iconFileSong.Size = New System.Drawing.Size(40, 37)
         Me.iconFileSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconFileSong.TabIndex = 39
         Me.iconFileSong.TabStop = False
@@ -290,9 +329,10 @@ Partial Class AdminDetailSong
         '
         Me.iconFileCover.Cursor = System.Windows.Forms.Cursors.Hand
         Me.iconFileCover.Image = CType(resources.GetObject("iconFileCover.Image"), System.Drawing.Image)
-        Me.iconFileCover.Location = New System.Drawing.Point(1224, 38)
+        Me.iconFileCover.Location = New System.Drawing.Point(1632, 47)
+        Me.iconFileCover.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.iconFileCover.Name = "iconFileCover"
-        Me.iconFileCover.Size = New System.Drawing.Size(30, 30)
+        Me.iconFileCover.Size = New System.Drawing.Size(40, 37)
         Me.iconFileCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.iconFileCover.TabIndex = 38
         Me.iconFileCover.TabStop = False
@@ -303,11 +343,12 @@ Partial Class AdminDetailSong
         Me.fileCover.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.fileCover.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.fileCover.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fileCover.Location = New System.Drawing.Point(857, 38)
+        Me.fileCover.Location = New System.Drawing.Point(1143, 47)
+        Me.fileCover.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fileCover.Multiline = True
         Me.fileCover.Name = "fileCover"
         Me.fileCover.ReadOnly = True
-        Me.fileCover.Size = New System.Drawing.Size(361, 30)
+        Me.fileCover.Size = New System.Drawing.Size(481, 36)
         Me.fileCover.TabIndex = 37
         Me.fileCover.Text = "Cover"
         '
@@ -317,36 +358,41 @@ Partial Class AdminDetailSong
         Me.fileSource.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.fileSource.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.fileSource.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fileSource.Location = New System.Drawing.Point(857, 75)
+        Me.fileSource.Location = New System.Drawing.Point(1143, 92)
+        Me.fileSource.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fileSource.Multiline = True
         Me.fileSource.Name = "fileSource"
         Me.fileSource.ReadOnly = True
-        Me.fileSource.Size = New System.Drawing.Size(361, 30)
+        Me.fileSource.Size = New System.Drawing.Size(481, 36)
         Me.fileSource.TabIndex = 36
         Me.fileSource.Text = "Song"
         '
         'btnFileSong
         '
-        Me.btnFileSong.BackColor = System.Drawing.Color.Moccasin
+        Me.btnFileSong.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.btnFileSong.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnFileSong.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnFileSong.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFileSong.ForeColor = System.Drawing.Color.Black
-        Me.btnFileSong.Location = New System.Drawing.Point(712, 74)
+        Me.btnFileSong.ForeColor = System.Drawing.Color.White
+        Me.btnFileSong.Location = New System.Drawing.Point(949, 91)
+        Me.btnFileSong.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnFileSong.Name = "btnFileSong"
-        Me.btnFileSong.Size = New System.Drawing.Size(139, 31)
+        Me.btnFileSong.Size = New System.Drawing.Size(185, 38)
         Me.btnFileSong.TabIndex = 34
         Me.btnFileSong.Text = "Choose Song"
         Me.btnFileSong.UseVisualStyleBackColor = False
         '
         'btnFileCover
         '
-        Me.btnFileCover.BackColor = System.Drawing.Color.Moccasin
+        Me.btnFileCover.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.btnFileCover.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnFileCover.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnFileCover.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFileCover.ForeColor = System.Drawing.Color.Black
-        Me.btnFileCover.Location = New System.Drawing.Point(712, 37)
+        Me.btnFileCover.ForeColor = System.Drawing.Color.White
+        Me.btnFileCover.Location = New System.Drawing.Point(949, 46)
+        Me.btnFileCover.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnFileCover.Name = "btnFileCover"
-        Me.btnFileCover.Size = New System.Drawing.Size(139, 31)
+        Me.btnFileCover.Size = New System.Drawing.Size(185, 38)
         Me.btnFileCover.TabIndex = 33
         Me.btnFileCover.Text = "Choose Cover"
         Me.btnFileCover.UseVisualStyleBackColor = False
@@ -355,9 +401,10 @@ Partial Class AdminDetailSong
         '
         Me.pctIconSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctIconSave.Image = CType(resources.GetObject("pctIconSave.Image"), System.Drawing.Image)
-        Me.pctIconSave.Location = New System.Drawing.Point(1234, 232)
+        Me.pctIconSave.Location = New System.Drawing.Point(1645, 286)
+        Me.pctIconSave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pctIconSave.Name = "pctIconSave"
-        Me.pctIconSave.Size = New System.Drawing.Size(30, 30)
+        Me.pctIconSave.Size = New System.Drawing.Size(40, 37)
         Me.pctIconSave.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconSave.TabIndex = 31
         Me.pctIconSave.TabStop = False
@@ -366,9 +413,10 @@ Partial Class AdminDetailSong
         '
         Me.pctIconDelete.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctIconDelete.Image = CType(resources.GetObject("pctIconDelete.Image"), System.Drawing.Image)
-        Me.pctIconDelete.Location = New System.Drawing.Point(1280, 232)
+        Me.pctIconDelete.Location = New System.Drawing.Point(1707, 286)
+        Me.pctIconDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pctIconDelete.Name = "pctIconDelete"
-        Me.pctIconDelete.Size = New System.Drawing.Size(30, 30)
+        Me.pctIconDelete.Size = New System.Drawing.Size(40, 37)
         Me.pctIconDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctIconDelete.TabIndex = 30
         Me.pctIconDelete.TabStop = False
@@ -377,10 +425,11 @@ Partial Class AdminDetailSong
         '
         Me.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDescription.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDescription.Location = New System.Drawing.Point(268, 175)
+        Me.txtDescription.Location = New System.Drawing.Point(357, 215)
+        Me.txtDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDescription.Multiline = True
         Me.txtDescription.Name = "txtDescription"
-        Me.txtDescription.Size = New System.Drawing.Size(950, 87)
+        Me.txtDescription.Size = New System.Drawing.Size(1266, 107)
         Me.txtDescription.TabIndex = 29
         Me.txtDescription.Text = "Description"
         '
@@ -390,19 +439,21 @@ Partial Class AdminDetailSong
         Me.cmbArtist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbArtist.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbArtist.FormattingEnabled = True
-        Me.cmbArtist.Location = New System.Drawing.Point(340, 74)
+        Me.cmbArtist.Location = New System.Drawing.Point(453, 91)
+        Me.cmbArtist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbArtist.Name = "cmbArtist"
-        Me.cmbArtist.Size = New System.Drawing.Size(330, 31)
+        Me.cmbArtist.Size = New System.Drawing.Size(439, 31)
         Me.cmbArtist.TabIndex = 28
         '
         'txtGenre
         '
         Me.txtGenre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGenre.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGenre.Location = New System.Drawing.Point(340, 111)
+        Me.txtGenre.Location = New System.Drawing.Point(453, 137)
+        Me.txtGenre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtGenre.Multiline = True
         Me.txtGenre.Name = "txtGenre"
-        Me.txtGenre.Size = New System.Drawing.Size(330, 30)
+        Me.txtGenre.Size = New System.Drawing.Size(439, 36)
         Me.txtGenre.TabIndex = 27
         Me.txtGenre.Text = "Genre"
         '
@@ -410,10 +461,11 @@ Partial Class AdminDetailSong
         '
         Me.txtTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTitle.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTitle.Location = New System.Drawing.Point(340, 38)
+        Me.txtTitle.Location = New System.Drawing.Point(453, 47)
+        Me.txtTitle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTitle.Multiline = True
         Me.txtTitle.Name = "txtTitle"
-        Me.txtTitle.Size = New System.Drawing.Size(330, 30)
+        Me.txtTitle.Size = New System.Drawing.Size(439, 36)
         Me.txtTitle.TabIndex = 26
         Me.txtTitle.Text = "Title"
         '
@@ -421,9 +473,10 @@ Partial Class AdminDetailSong
         '
         Me.pctCover.Cursor = System.Windows.Forms.Cursors.Hand
         Me.pctCover.Image = CType(resources.GetObject("pctCover.Image"), System.Drawing.Image)
-        Me.pctCover.Location = New System.Drawing.Point(12, 12)
+        Me.pctCover.Location = New System.Drawing.Point(16, 15)
+        Me.pctCover.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.pctCover.Name = "pctCover"
-        Me.pctCover.Size = New System.Drawing.Size(250, 250)
+        Me.pctCover.Size = New System.Drawing.Size(333, 308)
         Me.pctCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pctCover.TabIndex = 0
         Me.pctCover.TabStop = False
@@ -436,37 +489,18 @@ Partial Class AdminDetailSong
         '
         Me.OpenFileDialogSong.FileName = "OpenFileDialog1"
         '
-        'LabelUpdateAt
-        '
-        Me.LabelUpdateAt.AutoSize = True
-        Me.LabelUpdateAt.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelUpdateAt.Location = New System.Drawing.Point(268, 12)
-        Me.LabelUpdateAt.Name = "LabelUpdateAt"
-        Me.LabelUpdateAt.Size = New System.Drawing.Size(98, 16)
-        Me.LabelUpdateAt.TabIndex = 48
-        Me.LabelUpdateAt.Text = "Last Update :"
-        '
-        'txtUpdate_at
-        '
-        Me.txtUpdate_at.AutoSize = True
-        Me.txtUpdate_at.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUpdate_at.Location = New System.Drawing.Point(365, 12)
-        Me.txtUpdate_at.Name = "txtUpdate_at"
-        Me.txtUpdate_at.Size = New System.Drawing.Size(83, 16)
-        Me.txtUpdate_at.TabIndex = 49
-        Me.txtUpdate_at.Text = "2023/05/21"
-        '
         'AdminDetailSong
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1350, 665)
+        Me.BackColor = System.Drawing.Color.LightGray
+        Me.ClientSize = New System.Drawing.Size(1800, 818)
         Me.Controls.Add(Me.panelBackgroundSection)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.panelListSong)
         Me.Controls.Add(Me.panelBackground)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "AdminDetailSong"
         Me.Text = "AdminUpdateSong"
         Me.panelBackgroundSection.ResumeLayout(False)

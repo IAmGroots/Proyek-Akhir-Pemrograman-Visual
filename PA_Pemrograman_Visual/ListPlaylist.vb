@@ -27,13 +27,13 @@ Public Class ListPlaylist
 
         If RD.HasRows Then
             RD.Close()
-            MsgBox("Lagu sudah ada didalam PLaylist tersebut")
+            MsgBox("Lagu Sudah Ada Di PLaylist Tersebut", MsgBoxStyle.Critical, "Error")
         Else
             RD.Close()
             Dim query As String = "INSERT INTO tbplaylist_song (id_playlist, id_song) VALUES (" & id_playlist & ", " & id_song & ")"
             CMD = New MySqlCommand(query, CONN)
             CMD.ExecuteNonQuery()
-            MsgBox("Ditambah")
+            MsgBox("Lagu Ditambahkan Ke Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         End If
         Dim detail = New DetailSong
         detail.txtIdSong.Text = txtIdSong.Text

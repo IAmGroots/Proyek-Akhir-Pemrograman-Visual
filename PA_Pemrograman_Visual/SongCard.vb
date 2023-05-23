@@ -78,7 +78,7 @@
     End Sub
 
     Private Sub lblTitle_MouseEnter(sender As Object, e As EventArgs) Handles lblTitle.MouseEnter
-        lblTitle.ForeColor = Color.Blue
+        lblTitle.ForeColor = Color.Red
     End Sub
 
     Private Sub lblTitle_MouseLeave(sender As Object, e As EventArgs) Handles lblTitle.MouseLeave

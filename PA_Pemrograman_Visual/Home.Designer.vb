@@ -101,6 +101,7 @@ Partial Class Home
         '
         'MenuPanel
         '
+        Me.MenuPanel.BackColor = System.Drawing.Color.LightGray
         Me.MenuPanel.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.MenuPanel.Location = New System.Drawing.Point(0, 0)
@@ -110,6 +111,7 @@ Partial Class Home
         '
         'Content
         '
+        Me.Content.BackColor = System.Drawing.Color.LightGray
         Me.Content.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Content.Location = New System.Drawing.Point(0, 64)
         Me.Content.Name = "Content"
@@ -120,7 +122,7 @@ Partial Class Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1350, 729)
         Me.Controls.Add(Me.AudioPanel)
         Me.Controls.Add(Me.MenuPanel)

@@ -86,6 +86,10 @@ Public Class AdminDetailArtist
         getArtist()
         getSongArtist()
         pctIconSave.Focus()
+        'txtName.BorderStyle = BorderStyle.None
+        'txtCountry.BorderStyle = BorderStyle.None
+        'txtDescription.BorderStyle = BorderStyle.None
+        'fileCover.BorderStyle = BorderStyle.None
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -124,7 +128,6 @@ Public Class AdminDetailArtist
             pctCover.Image = Image.FromFile(lokasiAsal)
             File.Copy(lokasiAsal, lokasiTujuan, True)
             fileCover.Text = namaFile
-            MsgBox("OK")
         End If
     End Sub
 
@@ -145,7 +148,7 @@ Public Class AdminDetailArtist
             Dim query As String = "INSERT INTO tbartist(id_artist, name, country, photo, description, update_at) VALUES (NULL, '" & name & "', '" & country & "', '" & photo & "', '" & desc & "', '" & update_at & "')"
             CMD = New MySqlCommand(query, CONN)
             CMD.ExecuteNonQuery()
-            MsgBox("Ditambah")
+            MsgBox("Berhasil Menambahkan Artis", MsgBoxStyle.Information, "Pemberitahuan")
             changeContent(New AdminListArtist)
 
         Else
@@ -161,7 +164,7 @@ Public Class AdminDetailArtist
             Dim query As String = "UPDATE tbartist SET name = '" & name & "', country = '" & country & "', photo = '" & photo & "', description = '" & desc & "', update_at = '" & update_at & "' WHERE id_artist = " & id_artist
             CMD = New MySqlCommand(query, CONN)
             CMD.ExecuteNonQuery()
-            MsgBox("Diubah")
+            MsgBox("Berhasil Mengubah Data Artis", MsgBoxStyle.Information, "Pemberitahuan")
             Dim detail = New AdminDetailArtist
             detail.txtIdArtist.Text = txtIdArtist.Text
             changeContent(detail)
@@ -173,7 +176,7 @@ Public Class AdminDetailArtist
         Dim query As String = "DELETE FROM tbartist WHERE id_artist = " & txtIdArtist.Text
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Dihapus")
+        MsgBox("Berhasil Menghapus Artis", MsgBoxStyle.Information, "Pemberitahuan")
         changeContent(New AdminListArtist)
     End Sub
 
@@ -184,4 +187,34 @@ Public Class AdminDetailArtist
             changeContent(New AdminListArtist)
         End If
     End Sub
+
+    Private Sub txtName_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtName.KeyPress, txtDescription.KeyPress, txtCountry.KeyPress
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    'Private Sub txtName_MouseEnter(sender As Object, e As EventArgs) Handles txtName.MouseEnter
+    '    txtName.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtName_MouseLeave(sender As Object, e As EventArgs) Handles txtName.MouseLeave
+    '    txtName.BorderStyle = BorderStyle.None
+    'End Sub
+
+    'Private Sub txtCountry_MouseEnter(sender As Object, e As EventArgs) Handles txtCountry.MouseEnter
+    '    txtCountry.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtCountry_MouseLeave(sender As Object, e As EventArgs) Handles txtCountry.MouseLeave
+    '    txtCountry.BorderStyle = BorderStyle.None
+    'End Sub
+
+    'Private Sub txtDescription_MouseEnter(sender As Object, e As EventArgs) Handles txtDescription.MouseEnter
+    '    txtDescription.BorderStyle = BorderStyle.FixedSingle
+    'End Sub
+
+    'Private Sub txtDescription_MouseLeave(sender As Object, e As EventArgs) Handles txtDescription.MouseLeave
+    '    txtDescription.BorderStyle = BorderStyle.None
+    'End Sub
 End Class

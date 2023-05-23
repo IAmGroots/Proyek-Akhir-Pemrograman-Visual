@@ -34,6 +34,7 @@ Partial Class ListPlaylist
         '
         Me.txtTitle.AutoSize = True
         Me.txtTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTitle.ForeColor = System.Drawing.Color.White
         Me.txtTitle.Location = New System.Drawing.Point(47, 12)
         Me.txtTitle.Name = "txtTitle"
         Me.txtTitle.Size = New System.Drawing.Size(53, 25)
@@ -42,6 +43,7 @@ Partial Class ListPlaylist
         '
         'pctCover
         '
+        Me.pctCover.BackColor = System.Drawing.Color.Transparent
         Me.pctCover.Image = CType(resources.GetObject("pctCover.Image"), System.Drawing.Image)
         Me.pctCover.Location = New System.Drawing.Point(5, 5)
         Me.pctCover.Name = "pctCover"
@@ -72,7 +74,7 @@ Partial Class ListPlaylist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightBlue
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(170, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(174, 50)
         Me.Controls.Add(Me.txtIdSong)
         Me.Controls.Add(Me.txtIdPlaylist)

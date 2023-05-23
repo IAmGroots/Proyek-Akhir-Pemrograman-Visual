@@ -80,7 +80,7 @@ Public Class SongInPlaylist
     End Sub
 
     Private Sub lblTitle_MouseEnter(sender As Object, e As EventArgs) Handles lblTitle.MouseEnter
-        lblTitle.ForeColor = Color.Blue
+        lblTitle.ForeColor = Color.Red
     End Sub
 
     Private Sub lblTitle_MouseLeave(sender As Object, e As EventArgs) Handles lblTitle.MouseLeave
@@ -99,7 +99,7 @@ Public Class SongInPlaylist
         Dim query As String = "DELETE FROM tbplaylist_song WHERE id_playlist = " & id_playlist & " AND id_song = " & id_song
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Dihapus")
+        MsgBox("Lagu Dihapus Dari Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         Dim detail = New DetailPlaylist
         detail.txtIdPlaylist.Text = txtIdPlaylist.Text
         changeContent(detail)

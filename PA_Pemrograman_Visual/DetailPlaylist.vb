@@ -93,7 +93,7 @@ Public Class DetailPlaylist
         Dim query As String = "UPDATE tbplaylist SET name = '" & newName & "', description = '" & newDescription & "', cover = '" & newCover & "' WHERE id_playlist = " & id_playlist
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Disimpan")
+        MsgBox("Berhasil Mengubah Data Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         Dim detail = New DetailPlaylist
         detail.txtIdPlaylist.Text = txtIdPlaylist.Text
         changeContent(detail)
@@ -104,7 +104,7 @@ Public Class DetailPlaylist
         Dim query As String = "DELETE FROM tbplaylist WHERE id_playlist = " & id_playlist
         CMD = New MySqlCommand(query, CONN)
         CMD.ExecuteNonQuery()
-        MsgBox("Dihapus")
+        MsgBox("Berhasil Menghapus Playlist", MsgBoxStyle.Information, "Pemberitahuan")
         changeContent(New Playlist)
         Home.AudioPanel.Visible = False
         Home.MediaPlayers.Ctlcontrols.stop()
@@ -141,7 +141,6 @@ Public Class DetailPlaylist
             pctCover.Image = Image.FromFile(lokasiAsal)
             File.Copy(lokasiAsal, lokasiTujuan, True)
             txtCover.Text = namaFile
-            MsgBox("OK")
         End If
     End Sub
 
@@ -170,6 +169,12 @@ Public Class DetailPlaylist
             iconTitle.ImageLocation = PATH_ICON_FALSE
         Else
             iconTitle.ImageLocation = PATH_ICON_TRUE
+        End If
+    End Sub
+
+    Private Sub txtTitle_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTitle.KeyPress, txtDescription.KeyPress
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
         End If
     End Sub
 End Class

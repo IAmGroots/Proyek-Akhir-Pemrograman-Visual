@@ -8,22 +8,7 @@ Public Class AdminListArtist
         panel.Show()
     End Sub
 
-    Sub borderActive()
-        atas.Visible = True
-        kanan.Visible = True
-        bawah.Visible = True
-        kiri.Visible = True
-    End Sub
-
-    Sub borderDeactive()
-        atas.Visible = False
-        kanan.Visible = False
-        bawah.Visible = False
-        kiri.Visible = False
-    End Sub
-
     Private Sub AdminListArtist_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        borderDeactive()
         'SELECT * From tbartist
         DA = New MySqlDataAdapter("SELECT * From tbartist", CONN)
         DS = New DataSet
@@ -50,18 +35,6 @@ Public Class AdminListArtist
             panelArtist.Controls.Add(artist)
             artist.Show()
         Next
-    End Sub
-
-    Private Sub btnAddArtist_MouseEnter(sender As Object, e As EventArgs) Handles pctIconNewArtist.MouseEnter, Label1.MouseEnter, btnAddArtist.MouseEnter
-        btnAddArtist.BackColor = Color.Gainsboro
-        pctIconNewArtist.BackColor = Color.Gainsboro
-        Label1.BackColor = Color.Gainsboro
-    End Sub
-
-    Private Sub btnAddArtist_MouseLeave(sender As Object, e As EventArgs) Handles pctIconNewArtist.MouseLeave, Label1.MouseLeave, btnAddArtist.MouseLeave
-        btnAddArtist.BackColor = Color.White
-        pctIconNewArtist.BackColor = Color.White
-        Label1.BackColor = Color.White
     End Sub
 
     Private Sub btnAddArtist_Click(sender As Object, e As EventArgs) Handles pctIconNewArtist.Click, Label1.Click, btnAddArtist.Click

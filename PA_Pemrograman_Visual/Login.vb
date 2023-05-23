@@ -8,7 +8,7 @@ Public Class Login
     End Sub
 
     Private Sub btnGoogle_Click(sender As Object, e As EventArgs) Handles btnGoogle.Click, btnApple.Click
-        MsgBox("Sistem masih dalam tahap pengembangan")
+        MsgBox("Sistem masih dalam tahap pengembangan", MsgBoxStyle.Information, "Pemberitahuan")
     End Sub
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
@@ -24,7 +24,7 @@ Public Class Login
         End If
 
         'SELECT * FROM tbuser WHERE username = "asep" AND password = "00"
-        CMD = New MySqlCommand("SELECT * From tbuser WHERE username = '" & username & "' AND password = '" & password & "'", CONN)
+        CMD = New MySqlCommand("SELECT * From tbuser WHERE username = '" & username.ToLower & "' AND password = '" & password & "'", CONN)
         RD = CMD.ExecuteReader
         RD.Read()
 
@@ -48,17 +48,37 @@ Public Class Login
             txtUsername.Text = ""
             txtPassword.Text = ""
         End If
-        'user
-        'Home.Show()
-        'Me.Hide()
-
-        'admin
-        'AdminHome.Show()
-        'Me.Hide()
     End Sub
 
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
         Register.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub forgot_MouseEnter(sender As Object, e As EventArgs) Handles forgot.MouseEnter
+        forgot.ForeColor = Color.FromArgb(100, 92, 170)
+    End Sub
+
+    Private Sub forgot_MouseLeave(sender As Object, e As EventArgs) Handles forgot.MouseLeave
+        forgot.ForeColor = Color.Black
+    End Sub
+
+    Private Sub forgot_Click(sender As Object, e As EventArgs) Handles forgot.Click
+        ForgotPassword.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub cbxPass_CheckedChanged(sender As Object, e As EventArgs) Handles cbxPass.CheckedChanged
+        If cbxPass.Checked = True Then
+            txtPassword.UseSystemPasswordChar = False
+        Else
+            txtPassword.UseSystemPasswordChar = True
+        End If
+    End Sub
+
+    Private Sub txtUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtUsername.KeyPress, txtPassword.KeyPress
+        If Not Char.IsLetterOrDigit(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then
+            e.Handled = True
+        End If
     End Sub
 End Class
