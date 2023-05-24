@@ -98,6 +98,11 @@ Public Class AdminDetailSong
         Dim jmlBaris As Integer = dt.Rows.Count
         Dim jmlKolom As Integer = dt.Columns.Count
         Dim array(jmlBaris - 1, jmlKolom - 1) As String
+        If jmlBaris = 0 Then
+            MsgBox("Silahkan isi data artist terlebih dahulu")
+            changeContent(New AdminListSong)
+            Return
+        End If
         For i As Integer = 0 To jmlBaris - 1
             For j As Integer = 0 To jmlKolom - 1
                 array(i, j) = dt.Rows(i).Item(j).ToString()
@@ -139,8 +144,8 @@ Public Class AdminDetailSong
     End Function
 
     Private Sub DetailSong_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        getSong()
         getArtist()
+        getSong()
         getOtherSong()
         pctIconSave.Focus()
         pctIconPlayNPause.Visible = False
