@@ -204,4 +204,5 @@ Public Class DetailSong
             changeContent(New Playlist)
         End If
     End Sub
+
 End Class
