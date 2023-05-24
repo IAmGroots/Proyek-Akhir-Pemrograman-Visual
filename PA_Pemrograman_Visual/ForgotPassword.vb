@@ -24,6 +24,14 @@ Public Class ForgotPassword
             Return
         End If
 
+        If username.ToLower = "admin" Then
+            MessageBox.Show("Username tidak ditemukan", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            txtUsername.Focus()
+            txtUsername.Text = ""
+            txtPassword.Text = ""
+            txtConfirm.Text = ""
+            Return
+        End If
         'SELECT * FROM tbuser WHERE username = "asep" AND password = "00"
         CMD = New MySqlCommand("SELECT * From tbuser WHERE tbuser.username = '" & username.ToLower & "'", CONN)
         RD = CMD.ExecuteReader
