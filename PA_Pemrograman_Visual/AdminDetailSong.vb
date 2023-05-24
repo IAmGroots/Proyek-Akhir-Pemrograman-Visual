@@ -99,7 +99,7 @@ Public Class AdminDetailSong
         Dim jmlKolom As Integer = dt.Columns.Count
         Dim array(jmlBaris - 1, jmlKolom - 1) As String
         If jmlBaris = 0 Then
-            MsgBox("Silahkan isi data artist terlebih dahulu")
+            MsgBox("Tidak ada data Artist", MsgBoxStyle.Information, "Pemberitahuan")
             changeContent(New AdminListSong)
             Return
         End If
